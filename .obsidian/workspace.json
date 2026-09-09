@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "ac7d547d95d43e71",
+    "id": "41c6b77459c53ede",
     "type": "split",
     "children": [
       {
-        "id": "a3ba180b041b882c",
+        "id": "640fe890169625b7",
         "type": "tabs",
         "children": [
           {
-            "id": "a7c191129984fba7",
+            "id": "9416dda3ac5d11fd",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7b7a467b360bbf19",
+    "id": "9bd48a94d970a0a6",
     "type": "split",
     "children": [
       {
-        "id": "a70afa013e4bd31a",
+        "id": "5da2b3666190327c",
         "type": "tabs",
         "children": [
           {
-            "id": "2059514d1151ed51",
+            "id": "8e4b2d6c7893ff80",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +46,7 @@
             }
           },
           {
-            "id": "12135b649b418722",
+            "id": "2f154ac17ca48871",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,11 +63,14 @@
             }
           },
           {
-            "id": "44f80b4f74389fe4",
+            "id": "955ca1d593535377",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Könyvjelzők"
             }
@@ -79,20 +82,19 @@
     "width": 300
   },
   "right": {
-    "id": "d7cb48c338da0102",
+    "id": "89fa611d4e2e773b",
     "type": "split",
     "children": [
       {
-        "id": "1e12c4a06806c6f5",
+        "id": "34c394322dd63f0e",
         "type": "tabs",
         "children": [
           {
-            "id": "945f42aa0f1d95aa",
+            "id": "b43f27ec53237047",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +104,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Excel programing visszahivatkozásai"
+              "title": "Visszahivatkozások"
             }
           },
           {
-            "id": "88951dc653d23c8c",
+            "id": "029fa427b3e8760f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Kimenő kapcsolatok a(z) Excel programing jegyzetből"
+              "title": "Kimenő kapcsolatok"
             }
           },
           {
-            "id": "f99fd2cba8b1320b",
+            "id": "7593e20e64ba7587",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +136,7 @@
             }
           },
           {
-            "id": "feea6036a2ef524b",
+            "id": "0e3723979f3c0c95",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,18 +150,17 @@
             }
           },
           {
-            "id": "49b061b92b8862f5",
+            "id": "6be84a1dc7b15701",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Excel programing vázlata"
+              "title": "Vázlat"
             }
           }
         ]
@@ -181,37 +181,9 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "a7c191129984fba7",
+  "active": "9416dda3ac5d11fd",
   "lastOpenFiles": [
-    "Corvinus/Mohácsi László_Munkáltatói igazolás_2026 04 15.pdf",
-    "Corvinus/Lecture notes/Meaning of Bytes/Számábrázolási hibák.md",
-    "Corvinus/Lecture notes/Meaning of Bytes/Untitled.canvas",
-    "Pasted image 20260908154700.jpg",
-    "Pasted image 20260908154450.jpg",
-    "Untitled.canvas",
-    "sb-idea.md",
-    "Corvinus/Lecture notes/Build your professional reputation.md",
-    "Corvinus/Lecture notes/Creating Excel documents/Excel COM automation in Csharp.md",
-    "Corvinus/Lecture notes/Meaning of Bytes",
-    "Corvinus/Lecture notes/Creating Excel documents",
     "Corvinus/Lecture notes/topics.txt",
-    "Corvinus/Lecture notes/Creating Excel documents/Excel programing.md",
-    "Corvinus/Lecture notes/Creating Excel documents/Excel VSTO.md",
-    "Untitled 1.canvas",
-    "Corvinus/Lecture notes/GTFS/Közlekedési vállalat tervezési feladat.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/kognitiv bias.md",
-    "Corvinus/Lecture notes/GTFS",
-    "Corvinus/Lecture notes/kognitív téveszmék/Gambler's fallacy.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Focusing effect.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Attentional bias.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Availability heuristic.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Salience bias.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Szalmabábérvelés — _straw man fallacy_.md",
-    "Corvinus/Lecture notes/kognitív téveszmék/Texas sharpshooter fallacy.md",
-    "Corvinus/Fusion_Single_Install_Instructions_11042024.pdf",
-    "Corvinus/Fusion Client Downloader.7z",
-    "Corvinus/Lecture notes/Creating Excel documents/Excel DNA.md",
-    "Corvinus/Lecture notes/My gerat idea.md",
-    "Corvinus/Lecture notes/Creating Excel documents/Generate and read Excel files using ClosedXML.md"
+    "Corvinus/Lecture notes"
   ]
 }
