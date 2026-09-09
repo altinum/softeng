@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "ac7d547d95d43e71",
+    "type": "split",
+    "children": [
+      {
+        "id": "7732e42fe0f1c7ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fff0b42fdce8d6e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel programing"
+            }
+          },
+          {
+            "id": "e44337805ddd34bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel programing"
+            }
+          },
+          {
+            "id": "8ea32f817962e67c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel programing"
+            }
+          },
+          {
+            "id": "b92050f7f9dbf363",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Corvinus/Lecture notes/My gerat idea.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "My gerat idea"
+            }
+          },
+          {
+            "id": "d3ec82d08a30a70e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Corvinus/Fusion_Single_Install_Instructions_11042024.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Fusion_Single_Install_Instructions_11042024"
+            }
+          },
+          {
+            "id": "bfd5cf07226ad5f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Corvinus/Lecture notes/LLM coding bias & fallacies.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLM coding bias & fallacies"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b7a467b360bbf19",
+    "type": "split",
+    "children": [
+      {
+        "id": "a70afa013e4bd31a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2059514d1151ed51",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12135b649b418722",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Keresés"
+            }
+          },
+          {
+            "id": "44f80b4f74389fe4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Könyvjelzők"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d7cb48c338da0102",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e12c4a06806c6f5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "945f42aa0f1d95aa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Excel programing visszahivatkozásai"
+            }
+          },
+          {
+            "id": "88951dc653d23c8c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Kimenő kapcsolatok a(z) Excel programing jegyzetből"
+            }
+          },
+          {
+            "id": "f99fd2cba8b1320b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Címkék"
+            }
+          },
+          {
+            "id": "feea6036a2ef524b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Minden tulajdonság"
+            }
+          },
+          {
+            "id": "49b061b92b8862f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Corvinus/Lecture notes/Excel programing.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Excel programing vázlata"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bfd5cf07226ad5f8",
+  "lastOpenFiles": [
+    "Moha/A világról.md",
+    "Corvinus/Lecture notes/LLM coding bias & fallacies.md",
+    "Thoughts.md",
+    "Corvinus/Fusion_Single_Install_Instructions_11042024.pdf",
+    "Corvinus/Lecture notes/Excel VSTO.md",
+    "Corvinus/Fusion Client Downloader.7z",
+    "Corvinus/Lecture notes/Excel DNA.md",
+    "Corvinus/Lecture notes/Excel programing.md",
+    "Untitled 1.canvas",
+    "sb-idea.md",
+    "Corvinus/Lecture notes/My gerat idea.md",
+    "Corvinus/Lecture notes/Build your professional reputation.md",
+    "Untitled.canvas",
+    "Corvinus/Lecture notes/Generate and read Excel files using ClosedXML.md",
+    "Corvinus/Lecture notes/Excel COM automation in Csharp.md"
+  ]
+}

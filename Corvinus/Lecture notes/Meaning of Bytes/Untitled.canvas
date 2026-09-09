@@ -1,0 +1,135 @@
+{
+	"nodes":[
+		{
+			"id":"a50d29e9c9b8c43a",
+			"type":"text",
+			"text":"## The etimology of the word “integer”\n\nThe word **\"integer\"** in programming comes from **Latin**, where _integer_ means **\"whole\" or \"untouched\"** (_in-_ meaning \"not\" and _tangere_ meaning \"to touch\"). It was used in mathematics long before programming to refer to **whole numbers** (both positive and negative, including zero) without fractional or decimal parts.\n\nWhen programming languages were developed, they adopted **integer** as a data type name to represent whole numbers, distinguishing them from floating-point numbers, which can have decimals. The choice was a natural extension of mathematical terminology into computing.",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":-640,
+			"width":555,
+			"height":520
+		},
+		{"id":"68db5f3aedd762f9","type":"text","text":"```\nBinary       Decimal\n────────────────────\n00000000  →      0\n00000001  →      1\n00000010  →      2\n00000011  →      3\n   ...             ...\n11111110  →    254\n11111111  →    255\n\nRange: 0 ... 255\n       2⁸ = 256 different values\n```","x":-1220,"y":-640,"width":425,"height":520},
+		{"id":"e87f1d6592f5228a","type":"text","text":"```\nUnsigned 16-bit integer\n\n0000000000000000 =      0\n0000000000000001 =      1\n0000000000000010 =      2\n0000000000000011 =      3\n...\n1111111111111100 =  65532\n1111111111111101 =  65533\n1111111111111110 =  65534\n1111111111111111 =  65535\n\nRange: 0 ... 65535\n       0 ... 2¹⁶ - 1\n       2¹⁶ = 65,536 different values\n```","x":-740,"y":-640,"width":403,"height":520},
+		{"id":"db07a5f19d4652af","type":"text","text":"```\nSigned 16-bit integer (two's complement)\n\n0000000000000000 =       0\n0000000000000001 =       1\n0000000000000010 =       2\n0000000000000011 =       3\n...\n0111111111111111 =   32767\n1000000000000000 =  -32768\n1000000000000001 =  -32767\n...\n1111111111111111 =      -1\n\nRange: -32768 ... 32767\n       -2¹⁵ ... 2¹⁵ - 1\n       2¹⁶ = 65,536 different values\n```","x":-280,"y":-640,"width":588,"height":520},
+		{
+			"id":"47a645874b6fdef8",
+			"type":"text",
+			"text":"```\nSigned 8-bit integer\n\n00000000 =    0\n00000001 =    1\n00000010 =    2\n00000011 =    3\n...\n01111110 =  126\n01111111 =  127\n10000000 = -128\n10000001 = -127\n10000010 = -126\n...\n11111110 =   -2\n11111111 =   -1\n\nRange: -128 ... 127\n       -2⁷ ... 2⁷ - 1\n       2⁸ = 256 different values\n```",
+			"styleAttributes":{},
+			"x":360,
+			"y":-640,
+			"width":520,
+			"height":520
+		},
+		{
+			"id":"545ffc7dbd7f88e3",
+			"type":"text",
+			"text":"## Etimology of the “bool”\n\nThe term **\"bool\"** in programming comes from **\"Boolean\"**, which is named after **George Boole** (1815–1864), an English **mathematician** and logician. Boole developed Boolean algebra, a system of logic that deals with true/false (or 1/0) values, which became fundamental to computer science and digital logic.\n\nMany programming languages use \"bool\" as a shorthand for the Boolean data type, which can hold only two values: `true` or `false`.",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":-60,
+			"width":555,
+			"height":320
+		},
+		{
+			"id":"ccf1bcbf837fe97a",
+			"type":"text",
+			"text":"## Immutability of strings[](https://altinum.github.io/docfx_softeng/softeng2/ds_week1_lec_variables/variables.html#immutability-of-strings)\n\nIn C#, **strings are immutable**, meaning that once a `string` object is created, its value cannot be changed. Any operation that appears to modify a string actually creates a **new** string object in memory rather than altering the original one.\n\n```c\nstring s = \"Hello\";\ns += \" World\"; // A new string \"Hello World\" is created, and 's' now references it.\n```\n\nThe original `\"Hello\"` string still exists in memory (until garbage collection reclaims it).",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":800,
+			"width":555,
+			"height":400
+		},
+		{
+			"id":"74a69d62b8afb93b",
+			"type":"text",
+			"text":"## 0.1 in binary (base 2)[](https://altinum.github.io/docfx_softeng/softeng2/ds_week1_lec_variables/variables.html#01-in-binary-base-2)\n\n0.0001100110011001100110011001100...\n\nThis pattern **(0011)** repeats infinitely.\n\n##### Important\n\n`double` and `float` store numbers in a binary float point format. It means that the decimal 0.1 value converted to `double` of `float` will hold a **rounding error**! Use `decimal` if necessary!\n",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":320,
+			"width":555,
+			"height":440
+		},
+		{
+			"id":"b94100ef3ebf6f26",
+			"type":"text",
+			"text":"# Memory doesn't store numbers",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":-1400,
+			"width":555,
+			"height":60
+		},
+		{"id":"4a9677df76721ec9","type":"file","file":"Pasted image 20260908154700.jpg","x":-1840,"y":-1300,"width":555,"height":555},
+		{
+			"id":"6cf0c92598c93d24",
+			"type":"text",
+			"text":"# Add numbers in Python\n\n```python\na = 0.1\nb = 0.2\nc = 0.3\n\nprint(a+b==c) #wtf\n\n\nprint(f\"a={a:.20f}\")\nprint(f\"b={b:.20f}\")\n```",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":-1920,
+			"width":555,
+			"height":480
+		},
+		{
+			"id":"b3e417996f3ee78a",
+			"type":"text",
+			"text":"# Exapmles of abstraction layers\n\n- Excel does the math\n- Car accelerator and brake\n- For an aircraft it doesn't work\n- Gravitational force acts between bodies of mass\n- Time is monotonic",
+			"styleAttributes":{},
+			"x":-1240,
+			"y":-1920,
+			"width":520,
+			"height":480
+		},
+		{"id":"50d6757523d9b052","type":"link","url":"https://edgar-seemann.de/converters/ieee754.html","x":-1220,"y":320,"width":600,"height":440},
+		{
+			"id":"e35d06ed25d4cb21",
+			"type":"text",
+			"text":"### LLM Quantization\n\n- LLM parameters are typically stored using **FP32, FP16, or BF16**.\n- **Quantization** represents these values using fewer bits, e.g. **INT8, INT4, FP8**.\n- Fewer bits mean:\n    - **smaller model size**\n    - **lower memory usage**\n    - potentially **faster inference**\n- Quantization is usually **lossy**: the original values can only be approximated.\n- The goal is to **reduce the number of bits while preserving model quality**.\n\n**Example — a 7-billion-parameter model:**\n\n```\nFP16          INT8          INT4\n16 bits       8 bits        4 bits\n  ↓             ↓             ↓\n~14 GB        ~7 GB         ~3.5 GB\n```\n\n> **Quantization = representing the same information with fewer bits, at the cost of some precision.**\n\nThe connection to floating-point representation is important: **INT8/INT4 are integer representations**, but the original floating-point weights can be converted to them using **scaling and rounding**.",
+			"styleAttributes":{},
+			"x":-540,
+			"y":320,
+			"width":554,
+			"height":440
+		},
+		{
+			"id":"9efcd4781e4f2831",
+			"type":"text",
+			"text":"Q: Are large language models deterministic? \n\nFloat point numbers are not associative\n\n```\n(a + b) + c ≠ a + (b + c)\n```\n\n\n\n```python\n(0.1 + 0.2) + 0.3  →  0.6000000000000001\n0.1 + (0.2 + 0.3)  →  0.6\n```",
+			"styleAttributes":{},
+			"x":40,
+			"y":320,
+			"width":500,
+			"height":440
+		},
+		{
+			"id":"695d3191cff2aedb",
+			"type":"text",
+			"text":"## Basic variables in C# along with their ranges and memory consumption[](https://altinum.github.io/docfx_softeng/softeng2/ds_week1_lec_variables/variables.html#basic-variables-in-c-along-with-their-ranges-and-memory-consumption)\n\n|Data Type|Description|Size (Bytes)|Range|\n|---|---|---|---|\n|`byte`|Unsigned 8-bit integer|1|0 to 255|\n|`sbyte`|Signed 8-bit integer|1|-128 to 127|\n|`short`|Signed 16-bit integer|2|-32,768 to 32,767|\n|`ushort`|Unsigned 16-bit integer|2|0 to 65,535|\n|`int`|Signed 32-bit integer|4|-2,147,483,648 to 2,147,483,647|\n|`uint`|Unsigned 32-bit integer|4|0 to 4,294,967,295|\n|`long`|Signed 64-bit integer|8|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|\n|`ulong`|Unsigned 64-bit integer|8|0 to 18,446,744,073,709,551,615|\n|`float`|32-bit floating point|4|±1.5 × 10⁻⁴⁵ to ±3.4 × 10³⁸|\n|`double`|64-bit floating point|8|±5.0 × 10⁻³²⁴ to ±1.7 × 10³⁰⁸|\n|`decimal`|128-bit precise floating point|16|±1.0 × 10⁻²⁸ to ±7.9 × 10²⁸|\n|`char`|16-bit Unicode character|2|'\\u0000' to '\\uffff' (0 to 65,535)|\n|`bool`|Boolean (true/false)|1 (or more, depends on implementation)|`true` or `false`|",
+			"styleAttributes":{},
+			"x":-1840,
+			"y":1240,
+			"width":840,
+			"height":800
+		},
+		{
+			"id":"e8a5896692692da2",
+			"type":"text",
+			"text":"gyptian hieroglyphs are also directly encoded in Unicode. Here are some examples:\n\n**𓂀 𓃠 𓅓 𓆣 𓇋 𓈖 𓉐 𓊪 𓋹 𓍿 𓎛 𓏏**\n\nSome recognizable ones:\n\n- **𓂀** — Eye of Horus\n- **𓃠** — cat\n- **𓅓** — owl\n- **𓆣** — scarab beetle\n- **𓋹** — ankh, ☥\n- **𓉐** — house\n- **𓇋** — reed leaf\n- **𓏏** — bread loaf",
+			"styleAttributes":{},
+			"x":-1220,
+			"y":800,
+			"width":540,
+			"height":400
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"3cfb598717ea2723"
+	}
+}

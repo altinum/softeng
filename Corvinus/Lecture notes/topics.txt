@@ -1,0 +1,40 @@
+Mi az a Markdown? Mi az a Mermaid?
+SQL Murder Mystery
+Miért SQL? Codd élete. 
+GTFS
+
+
+
+
+Excel generation, Office interop
+
+XML, XPath
+XML SQL adatbázisban
+JSON, .. FOR JSON PATH/AUTO
+
+Pdf, dokumentumok digitális aláírása
+
+
+Apollo
+Andrej Karpathy: https://www.youtube.com/watch?v=7xTGNNLPyMI
+
+
+
+Startupok
+RegEx
+
+
+
+Génszerkesztés
+Big Brother
+VAR
+
+A szerelem a házzasság összetartó ereje, de statisztikailag a közös lakáshitel erősebb :)
+StackOverflow story - Vírusok szelídülése -- LLM megöli az adatforrást
+
+Miért ültök az egyetemen?
+  Emberi kapcsolatok - szakmai és pár
+  Basic Survival Toolkit
+
+
+Frusztrációrtűrés 
