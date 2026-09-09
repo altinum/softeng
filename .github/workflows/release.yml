@@ -25,6 +25,13 @@ jobs:
           echo "=== markdown count ==="
           find ./GI -name "*.md" | wc -l
 
+      - name: Debug repo structure
+        run: |
+          echo "=== Repo root ==="
+          ls -la
+          echo "=== 2 szintig ==="
+          find . -maxdepth 2 -not -path "./.git*"
+
       - name: Download Kiln
         run: |
           curl -L \
