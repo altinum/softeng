@@ -18,27 +18,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-        with:
-          version: 10
+      - name: Debug vault contents
+        run: |
+          echo "=== GI directory ==="
+          find ./GI -maxdepth 3 -type f | sort
+          echo "=== markdown count ==="
+          find ./GI -name "*.md" | wc -l
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 24
+      - name: Debug repo structure
+        run: |
+          echo "=== Repo root ==="
+          ls -la
+          echo "=== 2 szintig ==="
+          find . -maxdepth 2 -not -path "./.git*"
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Download Kiln
+        run: |
+          curl -L \
+            -o kiln \
+            https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64
+          chmod +x kiln
 
-      - name: Generate site content
-        run: pnpm generate
-        env:
-          OBSIDIAN_VAULT_PATH: ${{ github.workspace }}
+      - name: Generate site
+        run: |
+          mkdir -p ./out
+          ./kiln generate \
+            --input ./GI \
+            --output ./out \
+            --url https://altinum.github.io/softeng
 
-      - name: Build site
-        run: pnpm build
+          echo "=== OUTPUT DIRECTORY ==="
+          ls -la ./out || true
 
+          echo "=== ALL GENERATED FILES ==="
+          find ./out -type f -print 2>/dev/null | sort || true            
+         
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:

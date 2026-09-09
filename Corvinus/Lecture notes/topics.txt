@@ -5,6 +5,7 @@ GTFS
 
 
 
+
 Elektronukus tőzsdei kereskedelem
 Excel generation, Office interop
 
