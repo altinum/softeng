@@ -31,6 +31,12 @@ jobs:
             --input ./GI \
             --output ./out \
             --url https://altinum.github.io/softeng
+
+          echo "=== OUTPUT DIRECTORY ==="
+          ls -la ./out || true
+
+          echo "=== ALL GENERATED FILES ==="
+          find ./out -type f -print 2>/dev/null | sort || true            
          
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
