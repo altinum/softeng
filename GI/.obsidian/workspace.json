@@ -79,14 +79,17 @@
             "id": "bfd5cf07226ad5f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Software Engineering.md",
-                "mode": "source",
-                "source": false
+                "file": "Lecture notes/Meaning of Bytes/Untitled.canvas",
+                "viewState": {
+                  "x": -480,
+                  "y": 60,
+                  "zoom": -2.5909364017657888
+                }
               },
-              "icon": "lucide-file",
-              "title": "Software Engineering"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -254,8 +257,9 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "bfd5cf07226ad5f8",
+  "active": "2059514d1151ed51",
   "lastOpenFiles": [
+    "index.md",
     "Lecture notes/Meaning of Bytes/Untitled.canvas",
     "Software Engineering.md",
     "GI/LICENSE.txt",
