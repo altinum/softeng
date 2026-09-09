@@ -18,6 +18,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Debug vault contents
+        run: |
+          echo "=== GI directory ==="
+          find ./GI -maxdepth 3 -type f | sort
+          echo "=== markdown count ==="
+          find ./GI -name "*.md" | wc -l
+
       - name: Download Kiln
         run: |
           curl -L \
@@ -27,6 +34,7 @@ jobs:
 
       - name: Generate site
         run: |
+          mkdir -p ./out
           ./kiln generate \
             --input ./GI \
             --output ./out \
