@@ -29,13 +29,13 @@ jobs:
         run: |
           ./kiln generate \
             --input ./GI \
-            --output ./softeng \
+            --output ./out \
             --url https://altinum.github.io/softeng
          
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./softeng
+          path: ./out
 
   deploy:
     needs: build
