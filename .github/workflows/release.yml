@@ -29,9 +29,8 @@ jobs:
         run: |
           ./kiln generate \
             --input ./GI \
-            --output ./out \
-            --base-url /softeng/
-
+            --output ./softeng
+         
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
