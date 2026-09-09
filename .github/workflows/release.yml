@@ -1,3 +1,4 @@
+```yaml
 name: Publish Obsidian Vault
 
 on:
@@ -15,20 +16,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout vault
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Klin
-        # install Klin here
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-      - name: Build website
-        run: |
-          klin build ...
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate site content
+        run: pnpm generate
+        env:
+          OBSIDIAN_VAULT_PATH: ${{ github.workspace }}
+
+      - name: Build site
+        run: pnpm build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: ./out
 
   deploy:
     needs: build
@@ -42,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+```
