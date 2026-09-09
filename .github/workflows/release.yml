@@ -18,26 +18,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v6
-        with:
-          version: 10
+      - name: Download Kiln
+        run: |
+          curl -L \
+            -o kiln \
+            https://github.com/otaleghani/kiln/releases/latest/download/kiln_linux_amd64
+          chmod +x kiln
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version: 24
-
-      - name: Install dependencies
-        run: pnpm install
-
-      - name: Generate site content
-        run: pnpm generate
-        env:
-          OBSIDIAN_VAULT_PATH: ${{ github.workspace }}/GI
-
-      - name: Build site
-        run: pnpm build
+      - name: Generate site
+        run: |
+          ./kiln generate \
+            --input ./GI \
+            --output ./out
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
