@@ -1,0 +1,89 @@
+name: Deploy Obsidian vault to GitHub Pages with Quartz
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout the vault repo (this repo) into ./vault
+      - name: Checkout vault
+        uses: actions/checkout@v4
+        with:
+          path: vault
+
+      # 2. Checkout Quartz itself into ./quartz (pulled fresh every run,
+      #    so nothing from Quartz needs to live in your vault repo)
+      - name: Checkout Quartz
+        uses: actions/checkout@v4
+        with:
+          repository: jackyzha0/quartz
+          ref: v4
+          path: quartz
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Quartz dependencies
+        working-directory: quartz
+        run: npm ci
+
+      # 3. Work out the Pages URL so Quartz's baseUrl / asset links resolve correctly
+      - name: Configure GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Patch quartz.config.ts with the correct baseUrl
+        working-directory: quartz
+        run: |
+          RAW_URL="${{ steps.pages.outputs.base_url }}"
+          BASE_URL="${RAW_URL#https://}"
+          BASE_URL="${BASE_URL#http://}"
+          BASE_URL="${BASE_URL%/}"
+          sed -i "s|baseUrl: \".*\"|baseUrl: \"${BASE_URL}\"|" quartz.config.ts
+          sed -i "s|baseUrl: undefined|baseUrl: \"${BASE_URL}\"|" quartz.config.ts
+
+      # 4. Copy the vault content into Quartz's content/ folder.
+      #    .obsidian is excluded (local app config, not needed on the site).
+      - name: Copy vault into Quartz content folder
+        run: |
+          rm -rf quartz/content
+          mkdir -p quartz/content
+          rsync -av \
+            --exclude='.obsidian' \
+            --exclude='.git' \
+            vault/GI/ quartz/content/
+
+      - name: Build Quartz site
+        working-directory: quartz
+        run: npx quartz build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz/public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
