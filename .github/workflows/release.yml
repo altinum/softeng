@@ -3,7 +3,7 @@ name: Publish Obsidian Vault
 on:
   push:
     branches:
-      - master
+      - master-xxxxxxxxxxxxxx
 
 permissions:
   contents: read
