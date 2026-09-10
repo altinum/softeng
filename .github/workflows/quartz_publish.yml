@@ -2,7 +2,7 @@ name: Deploy Obsidian vault to GitHub Pages with Quartz
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
