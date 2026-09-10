@@ -2,7 +2,7 @@ name: Deploy Obsidian vault to GitHub Pages with Quartz
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -26,11 +26,13 @@ jobs:
 
       # 2. Checkout Quartz itself into ./quartz (pulled fresh every run,
       #    so nothing from Quartz needs to live in your vault repo)
+      #    Using v5: v4 has no Canvas support at all, Canvas rendering
+      #    only exists as a v5 community plugin.
       - name: Checkout Quartz
         uses: actions/checkout@v4
         with:
           repository: jackyzha0/quartz
-          ref: v4
+          ref: v5
           path: quartz
 
       - name: Setup Node
@@ -42,22 +44,27 @@ jobs:
         working-directory: quartz
         run: npm ci
 
-      # 3. Work out the Pages URL so Quartz's baseUrl / asset links resolve correctly
+      # 3. Add the Canvas page-type plugin so .canvas files render
+      #    as interactive pages instead of being skipped
+      - name: Add canvas-page plugin
+        working-directory: quartz
+        run: npx quartz plugin add github:quartz-community/canvas-page
+
+      # 4. Work out the Pages URL so Quartz's baseUrl / asset links resolve correctly
       - name: Configure GitHub Pages
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Patch quartz.config.ts with the correct baseUrl
+      - name: Patch quartz.config.yaml with the correct baseUrl
         working-directory: quartz
         run: |
           RAW_URL="${{ steps.pages.outputs.base_url }}"
           BASE_URL="${RAW_URL#https://}"
           BASE_URL="${BASE_URL#http://}"
           BASE_URL="${BASE_URL%/}"
-          sed -i "s|baseUrl: \".*\"|baseUrl: \"${BASE_URL}\"|" quartz.config.ts
-          sed -i "s|baseUrl: undefined|baseUrl: \"${BASE_URL}\"|" quartz.config.ts
+          sed -i "s|^\(\s*baseUrl:\).*|\1 ${BASE_URL}|" quartz.config.yaml
 
-      # 4. Copy the vault content into Quartz's content/ folder.
+      # 5. Copy the vault content into Quartz's content/ folder.
       #    .obsidian is excluded (local app config, not needed on the site).
       - name: Copy vault into Quartz content folder
         run: |
