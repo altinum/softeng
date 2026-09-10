@@ -23,3 +23,5 @@ A tárgy oktatója: Dr. Mohácsi László
 | 2024-13-1      | 11. hét                 | 2. ZH (35 pont)               |
 | 2024-12-8      | 12. hét                 | Projekt ZH (30 pont)          |
 | 2024-12-15     | Vizsgaidőszak első hete | Pótlási lehetőség: péntek de. |
+
+![[https://storage.altinum.hu/se_lecture/Lessons_01_Clone_Db.m4v]]

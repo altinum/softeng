@@ -30,7 +30,7 @@ A heurisztika azért alakult ki, mert az agyunk gyors döntéshozatali "rövidí
 
 | Bias / fallacy                   | Magyarul                       | Példa                                                                                      |
 | -------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------ |
-| **Anchoring**                    | horgonyhatás                   | „Ez eredetileg 10 millió volt, most csak 7.” → jó vételnek tűnik.                          |
+| **[[Anchoring]]**                | horgonyhatás                   | „Ez eredetileg 10 millió volt, most csak 7.” → jó vételnek tűnik.                          |
 | **Representativeness heuristic** | reprezentativitási heurisztika | „Úgy néz ki, mint egy szakértő → biztosan szakértő.”                                       |
 | **Base-rate neglect**            | bázisráta elhanyagolása        | Egy konkrét tünetből következtetünk, figyelmen kívül hagyva az alapvalószínűséget.         |
 | **[[Gambler's fallacy]]**        | szerencsejátékos-téveszme      | „Ötször fejlesztettünk jó AI-kódot, most már biztosan jön egy rossz.”                      |

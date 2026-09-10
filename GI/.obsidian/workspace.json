@@ -79,17 +79,14 @@
             "id": "bfd5cf07226ad5f8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Lecture notes/Meaning of Bytes/Untitled.canvas",
-                "viewState": {
-                  "x": -480,
-                  "y": 60,
-                  "zoom": -2.5909364017657888
-                }
+                "file": "index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
@@ -257,11 +254,14 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "2059514d1151ed51",
+  "active": "bfd5cf07226ad5f8",
   "lastOpenFiles": [
-    "index.md",
     "Lecture notes/Meaning of Bytes/Untitled.canvas",
+    "Anchoring.md",
+    "Lecture notes/kognitív téveszmék/kognitiv bias.md",
+    "Lecture notes/GTFS/Közlekedési vállalat tervezési feladat.md",
     "Software Engineering.md",
+    "index.md",
     "GI/LICENSE.txt",
     "GI/Pasted image 20260908154700.jpg",
     "GI/Pasted image 20260908154450.jpg",
@@ -297,9 +297,6 @@
     "Untitled 1.canvas",
     "sb-idea.md",
     "Corvinus/Lecture notes/My gerat idea.md",
-    "Corvinus/Lecture notes/Build your professional reputation.md",
-    "Untitled.canvas",
-    "Corvinus/Lecture notes/Generate and read Excel files using ClosedXML.md",
-    "Corvinus/Lecture notes/Excel COM automation in Csharp.md"
+    "Untitled.canvas"
   ]
 }
