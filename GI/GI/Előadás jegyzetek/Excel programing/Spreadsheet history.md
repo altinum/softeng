@@ -7,6 +7,8 @@
 
 In 1979, the two students invented **VisiCalc** after getting frustrated with homework in a business class, which led them to develop a radically new solution.
 
+On the link below you can try the original VisiCalc online in an emulator. Note that the system RAM was only 64 KB :) 
+
 https://www.pcjs.org/software/pcx86/app/other/visicalc/1981/
 
 ## What happened to VisiCalc? 
@@ -28,5 +30,4 @@ Q: Could the idea have been protected by a patent?
 
 Excel file format: Just unzip it! It's a compressed folder of a bunch of XML documents. Just like DOCX and PPTX. 
 
-## If you need diagrams only:
-https://scottplot.net/
+

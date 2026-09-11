@@ -6,3 +6,10 @@
 
 [[ClosedXML]] - Az interneten számtalan csomag érhető el, amelyek segítségével **Excel fájlt lehet olvasni vagy létrehozni** anélkül, hogy a Microsoft Excel telepítve lenne. Ezek közül mi a ClosedXML-t szoktuk meg. Előnye, hogy operációs rendszertől függetlenül működik. 
 
+[[Spreadsheet history]] - Rövid összefoglaló a táblázatkezelők történetéről. 
+
+## If you need diagrams only
+
+Ha csak diagramok generálása a cél, az Excel lehet, hogy egy kis túlzás. Érdemes lehet kipróbálni az alábbi könyvtárat. 
+
+https://scottplot.net/
