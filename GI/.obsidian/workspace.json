@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GI/Előadás jegyzetek/Excel programing/Spreadsheet history.md",
+                "file": "GI/Előadás jegyzetek/Excel programing/Excel programing.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spreadsheet history"
+              "title": "Excel programing.md"
             }
           }
         ],
@@ -268,17 +268,18 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "fc7ffc1ed0eab262",
+  "active": "2059514d1151ed51",
   "lastOpenFiles": [
+    "GI/Előadás jegyzetek/Excel programing/Excel VSTO.md",
+    "GI/Előadás jegyzetek/Excel programing/Excel programing.md.md",
+    "GI/Előadás jegyzetek/Excel programing/Spreadsheet history.md",
     "GI/Előadás jegyzetek/Kognitív téveszmék/Kognitív téveszmék.md",
     "BDA/Lecture notes/LLM coding bias & fallacies.md",
     "index.md.md",
     "BDA/Lecture notes/My gerat idea.md",
     "GI/Előadás jegyzetek/Software for Free.md",
     "BDA/Lecture notes/Build your professional reputation.md",
-    "GI/Előadás jegyzetek/Excel programing/Spreadsheet history.md",
     "GI/Előadás jegyzetek/Névtelen",
-    "GI/Előadás jegyzetek/Excel programing/index.md.md",
     "GI/Előadás jegyzetek/Excel programing/ClosedXML.md",
     "GI/index.md",
     "GI/Gyakorlati feladatok/1- Adatbázistervezés/a) Közlekedési vállalat tervezési feladat.md",
@@ -311,7 +312,6 @@
     "Gambler's fallacy.md",
     "Corvinus/Lecture notes/kognitív téveszmék/kognitiv bias.md",
     "Corvinus/Lecture notes/kognitív téveszmék/Texas sharpshooter fallacy.md",
-    "Corvinus/Lecture notes/Számábrázolási hibák.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
