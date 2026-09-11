@@ -1,4 +1,7 @@
-A heurisztika azért alakult ki, mert az agyunk gyors döntéshozatali "rövidítéseket" (heurisztikákat) használ a bonyolult statisztikai számolás helyett – ez legtöbbször hasznos, de torzításokhoz (bias) vezethet, amikor a médiafigyelem, a személyes élmények vagy az érzelmi töltet nem tükrözi a valós gyakoriságot.
+**Bias:** _„Az agyam bizonyos módon torzítja az információ feldolgozását.”_  
+**Fallacy:** _„Az érvelésem szerkezetileg hibás.”_
+
+A heurisztika azért alakult ki, mert az agyunk gyors döntéshozatali "rövidítéseket" (heurisztikákat) használ a bonyolult statisztikai számolás helyett – ez legtöbbször hasznos, de torzításokhoz (*bias*) vezethet, amikor a médiafigyelem, a személyes élmények vagy az érzelmi töltet nem tükrözi a valós gyakoriságot.
 ## 1. Információ és figyelem
 
 | Bias / jelenség                | Magyarul                     | Röviden                                                           | Példa                                                                    |
@@ -128,7 +131,7 @@ Ezeket érdemes **külön megtanítani a biasoktól**, mert nem ugyanazok.
 | **Post hoc ergo propter hoc**      | utólagosságból ok-okozat     | „Az AI bevezetése után csökkent a bugok száma, tehát az AI miatt.”               |
 | **Hasty generalization**           | elhamarkodott általánosítás  | „Három AI-kód jó volt, tehát az AI-kód jó.”                                      |
 | **Survivorship bias**              | túlélési torzítás            | Csak a sikeres AI-projekteket nézzük.                                            |
-| **[[Szalmabábérvelés — _straw man fallacy_]]**                  | szalmabábérvelés             | „Aki review-t akar, az nem bízik az AI-ban.”                                     |
+| **[[Strawman fallacy]]**                  | szalmabábérvelés             | „Aki review-t akar, az nem bízik az AI-ban.”                                     |
 | **Slippery slope**                 | csúszós lejtő                | „Ha AI-val generálunk egy függvényt, hamarosan senki sem fog tudni programozni.” |
 | **Circular reasoning**             | körkörös érvelés             | „Jó a kód, mert megbízható; tudjuk, hogy megbízható, mert jó.”                   |
 | **Cherry picking**                 | mazsolázás                   | Csak a sikeres benchmarkokat mutatjuk.                                           |
