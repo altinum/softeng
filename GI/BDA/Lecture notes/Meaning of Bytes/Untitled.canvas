@@ -126,7 +126,17 @@
 			"height":400
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"a5df47332d2f3a23",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"74a69d62b8afb93b",
+			"fromSide":"right",
+			"toNode":"47f237ff8a534c99",
+			"toSide":"left"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{},
