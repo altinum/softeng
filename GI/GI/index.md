@@ -19,10 +19,10 @@
 | 2024‑09‑15     | 1. hét        | MarkDown, Obsidian, Mermaid, Adatbázis tervezés                      | Adatb. tervezés                                  |
 | 2024-09-22     | 2. hét        | Excel programozás                                                    | Excel programozás                                |
 | 2024-09-29     | 3. hét        | Kódolás & AI                                                         | Tankönyvtámogatás                                |
-| 2024-10-6      | 4. hét        | Git                                                                  |                                                  |
+| 2024-10-6      | 4. hét        | Git, Reguláris kifejezések                                           | Új rekord rögzítése validált űrlapon             |
 | 2024-10-13     | 5. hét        |                                                                      |                                                  |
-| 2024-10-20     | 6. hét        |                                                                      | CSV és XML írása                                 |
-| 2024-10-27     | Őszi szünet   | Látókörbővítő: automatizált tőzsdei kereskedelem, startupok működése |                                                  |
+| 2024-10-20     | 6. hét        | Látókörbővítő: automatizált tőzsdei kereskedelem, startupok működése | CSV és XML írása                                 |
+| 2024-10-27     | Őszi szünet   |                                                                      |                                                  |
 | 2024-11-3      | 7. hét        | Összefoglaló az 1. ZH előtt                                          | ==1. ZH== (35 pont)                              |
 | 2024-11-10     | 8. hét        | HTML & REST API                                                      | ASP .NET API controllerek                        |
 | 2024-11-17     | 9. hét        |                                                                      |                                                  |

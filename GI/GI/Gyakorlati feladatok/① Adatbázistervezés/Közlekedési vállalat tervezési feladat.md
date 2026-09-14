@@ -1,6 +1,10 @@
 
 Tervezz relációs adatbázist egy városi és elővárosi közösségi közlekedési rendszer adatainak tárolására. Tervet MarkDown `erDiagram` formájában készítsd el. Dolgozzatok párokban!
 
+A leadás Moodle rendszeren keresztül történik a gyakorlat végén. A leadott feladat a gyakorlaton történő részvétel igazolásául is szolgál. 
+
+Dolgozzatok párban. A Markdown fájlban jelöljétek meg, hogy kik dolgoztatok együtt, és mind a ketten adjátok le a feladatot. 
+
 ## A feladat háttere
 
 A gyakorlatokon előforduló feladatok kapcsán érezhetitek úgy, hogy a feladatok a valóság leegyszerűsített változatát tárják elénk. A mai feladat nem ilyen. A gyakorlat végén meg tudom mutatni a valódi budapesti adatbázist, valós, naprakész adatokkal feltöltve. 
