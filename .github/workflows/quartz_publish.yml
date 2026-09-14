@@ -55,17 +55,39 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      - name: Patch quartz.config.yaml with the correct baseUrl
+      # 5. Patch the Quartz config: correct baseUrl, site title, and
+      #    ignore every file/folder whose name starts with "_".
+      - name: Patch quartz.config.yaml
         working-directory: quartz
+        env:
+          RAW_BASE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
-          RAW_URL="${{ steps.pages.outputs.base_url }}"
-          BASE_URL="${RAW_URL#https://}"
-          BASE_URL="${BASE_URL#http://}"
-          BASE_URL="${BASE_URL%/}"
-          sed -i "s|^\(\s*baseUrl:\).*|\1 ${BASE_URL}|" quartz.config.yaml
+          cat > patch-config.mjs <<'EOF'
+          import fs from "node:fs"
+          import YAML from "yaml"
 
-      # 5. Copy the vault content into Quartz's content/ folder.
+          const OUT = "quartz.config.yaml"
+          const src = fs.existsSync(OUT) ? OUT : "quartz.config.default.yaml"
+          const doc = YAML.parse(fs.readFileSync(src, "utf8"))
+          const cfg = (doc.configuration ??= {})
+
+          cfg.baseUrl = process.env.RAW_BASE_URL.replace(/^https?:\/\//, "").replace(/\/$/, "")
+          cfg.pageTitle = "Softeng"
+
+          // "**/_*" catches underscore-prefixed files/folders at any depth,
+          // "**/_*/**" catches everything inside an underscore-prefixed folder.
+          cfg.ignorePatterns = [...new Set([...(cfg.ignorePatterns ?? []), "**/_*", "**/_*/**"])]
+
+          const header = "# yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json\n"
+          fs.writeFileSync(OUT, header + YAML.stringify(doc, { lineWidth: 120 }))
+          console.log(`baseUrl=${cfg.baseUrl} pageTitle=${cfg.pageTitle} ignorePatterns=${JSON.stringify(cfg.ignorePatterns)}`)
+          EOF
+          node patch-config.mjs
+
+      # 6. Copy the vault content into Quartz's content/ folder.
       #    .obsidian is excluded (local app config, not needed on the site).
+      #    "_*" is excluded so underscore-prefixed content (including images
+      #    and other assets) never even reaches the published artifact.
       - name: Copy vault into Quartz content folder
         run: |
           rm -rf quartz/content
@@ -73,6 +95,7 @@ jobs:
           rsync -av \
             --exclude='.obsidian' \
             --exclude='.git' \
+            --exclude='_*' \
             vault/GI/ quartz/content/
 
       - name: Build Quartz site
