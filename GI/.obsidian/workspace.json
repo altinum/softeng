@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Lecture notes/_Leaky abstractions.md",
+                "file": "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_Leaky abstractions"
+              "title": "Tervezési feladat - közlekedési vállalat"
             }
           }
         ],
@@ -268,11 +268,11 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "2059514d1151ed51",
+  "active": "fc7ffc1ed0eab262",
   "lastOpenFiles": [
+    "BDA/Lecture notes/_Leaky abstractions.md",
     "Mintaprojektek/Untitled.canvas",
     "BDA/Lecture notes/_LLM coding bias & fallacies.md",
-    "BDA/Lecture notes/_Leaky abstractions.md",
     "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "budapest_gtfs.zip",
