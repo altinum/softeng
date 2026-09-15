@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Lecture notes/LLM coding bias & fallacies.md",
+                "file": "BDA/Lecture notes/_LLM coding bias & fallacies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM coding bias & fallacies"
+              "title": "_LLM coding bias & fallacies"
             }
           },
           {
@@ -95,12 +95,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GI/Előadás jegyzetek/Adatbázis tervezés/Hierarchia kezelése.md",
+                "file": "BDA/Lecture notes/_Leaky abstractions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hierarchia kezelése"
+              "title": "_Leaky abstractions"
             }
           }
         ],
@@ -270,15 +270,27 @@
   },
   "active": "2059514d1151ed51",
   "lastOpenFiles": [
-    "GI/Előadás jegyzetek/Adatbázis tervezés/Minta erDiagram.md",
-    "GI/Előadás jegyzetek/Adatbázis tervezés/Hierarchia kezelése.md",
-    "GI/Előadás jegyzetek/Adatbázis tervezés/SQL adattípusok.md",
-    "GI/Előadás jegyzetek/Adatbázis tervezés/Mermaid erDiagram.md",
-    "GI/Előadás jegyzetek/Adatbázis tervezés/_Gondoloatok.md",
-    "GI/Előadás jegyzetek/Adatbázis tervezés/Codd élete.md",
+    "BDA/Lecture notes/_LLM coding bias & fallacies.md",
+    "BDA/Lecture notes/_Leaky abstractions.md",
+    "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
+    "GI/Gyakorlati feladatok/① Adatbázistervezés/Megoldás.md",
+    "budapest_gtfs.zip",
+    "BDA/Lecture notes/① Meaning of Bytes/_Számábrázolási hibák.md",
     "GI/index.md",
+    "BDA/index.md",
+    "GI/Előadás jegyzetek/_Software for Free.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Elnevezési konvenciók.md",
+    "Chrome_devtools.mp4.md",
+    "GI/Zárthelyik/2. ZH/2. ZH Checklist.md",
     "index.md.md",
-    "GI/Előadás jegyzetek/Webfejlesztés/CSS ismétlés.md",
+    "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/_Gondoloatok.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Hierarchia kezelése.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Minta erDiagram.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/SQL adattípusok.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Mermaid erDiagram.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Codd élete.md",
+    "GI/Előadás jegyzetek/_Webfejlesztés/CSS ismétlés.md",
     "Mintaprojektek/Pasacal JS/Pasacal/obj/Debug/net6.0/refint/Pasacal.dll",
     "Mintaprojektek/Pasacal JS/Pasacal/obj/Debug/net6.0/ref/Pasacal.dll",
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
@@ -288,15 +300,11 @@
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.runtimeconfig.json",
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.pdb",
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.exe",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.dll",
-    "GI/Előadás jegyzetek/Excel programing/Excel COM automation in CSharp.md",
-    "Chrome_devtools.mp4.md",
-    "GI/Gyakorlati feladatok/② Tankönyvtámogatás/Tankönyvtámogatás példa.md",
+    "GI/Előadás jegyzetek/_Excel programing/Excel COM automation in CSharp.md",
+    "GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/Tankönyvtámogatás példa.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/asp_net_azure.md",
-    "GI/Előadás jegyzetek/Webfejlesztés/Böngészők piaca.md",
-    "GI/Előadás jegyzetek/Software for Free.md",
+    "GI/Előadás jegyzetek/_Webfejlesztés/Böngészők piaca.md",
     "GI/Zárthelyik/3. ZH - projekt ZH/3. ZH feladata.md",
-    "GI/Gyakorlati feladatok/① Adatbázistervezés/Közlekedési vállalat tervezési feladat.md",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/1- Adatbázistervezés.md",
     "GI/Zárthelyik/2. ZH/Gyakorló feladat/zh2_gyak.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/swagger.png",
@@ -309,14 +317,6 @@
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/1610834629567.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/1610832833765.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/1610832230354.png",
-    "GI/Gyakorlati feladatok/_ASP .NET/CRUDE - viccek/index.md",
-    "GI/Előadás jegyzetek/Webfejlesztés/HTTP és a REST.md",
-    "GI/Gyakorlati feladatok/XML állományok kezelése/ch02-03-product-xml.md",
-    "GI/Gyakorlati feladatok/XML állományok kezelése/ch02-03-product-category-xml.md",
-    "GI/Előadás jegyzetek/Reguláris kifejezések/Űrlapok validálása.md",
-    "GI/Előadás jegyzetek/Excel programing/Az ODF fromátum.md",
-    "GI/Gyakorlati feladatok/Excel DNA & ClosedXML/Excel COM automation.md",
-    "BDA/Lecture notes/Meaning of Bytes/Untitled.canvas",
     "Corvinus/Lecture notes/Meaning of Bytes/Untitled.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
