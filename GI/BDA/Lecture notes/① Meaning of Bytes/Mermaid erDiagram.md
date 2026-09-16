@@ -1,141 +1,300 @@
+# Mermaid ER Diagram Syntax Summary
 
-## Building the database
+Mermaid entity-relationship (ER) diagrams start with the `erDiagram` keyword.
 
-We [https://mermaid.live/](https://mermaid.live/) use to edit
+## Basic Structure
 
-1. **Customers Table**: Contains customer-specific information.
-    
-2. **Categories Table**: Contains category-specific information.
-    
-3. **Products Table**: Contains product-specific information with a foreign key to categories.
-    
-4. **Orders Table**: Contains order-specific information with a foreign key to customers.
-    
-5. **OrderDetails Table**: Contains order line items with foreign keys to orders and products.
-    
-
-```
-erDiagram  
-    CATEGORY {  
-        int CategoryID PK  
-        nvarchar(100) CategoryName  
-    }  
-
-    CUSTOMER {  
-        int CustomerID PK  
-        nvarchar(100) Name  
-        nvarchar(100) Email  
-    }  
-​  
-    ORDER_DETAIL {  
-        int OrderDetailID PK  
-        int OrderID FK  
-        int ProductID FK  
-        int Quantity  
-        decimal Price  
-    }  
-​  
-    ORDER {  
-        int OrderID PK  
-        int CustomerID FK  
-        date OrderDate  
-    }  
-​  
-    PRODUCT {  
-        int ProductID PK  
-        nvarchar(100) Name  
-        decimal Price  
-        int CategoryID FK  
-    }  
-​  
-    CUSTOMER ||--o{ ORDER : "places"  
-    ORDER ||--o{ ORDER_DETAIL : "contains"  
-    PRODUCT ||--o{ ORDER_DETAIL : "listed in"  
-    CATEGORY ||--o{ PRODUCT : "categorized by"  
-​
-```
-  
-``` mermaid
-erDiagram  
-    CATEGORY {  
-        int CategoryID PK  
-        nvarchar(100) CategoryName  
-    }  
-
-    CUSTOMER {  
-        int CustomerID PK  
-        nvarchar(100) Name  
-        nvarchar(100) Email  
-    }  
-​  
-    ORDER_DETAIL {  
-        int OrderDetailID PK  
-        int OrderID FK  
-        int ProductID FK  
-        int Quantity  
-        decimal Price  
-    }  
-​  
-    ORDER {  
-        int OrderID PK  
-        int CustomerID FK  
-        date OrderDate  
-    }  
-​  
-    PRODUCT {  
-        int ProductID PK  
-        nvarchar(100) Name  
-        decimal Price  
-        int CategoryID FK  
-    }  
-​  
-    CUSTOMER ||--o{ ORDER : "places"  
-    ORDER ||--o{ ORDER_DETAIL : "contains"  
-    PRODUCT ||--o{ ORDER_DETAIL : "listed in"  
-    CATEGORY ||--o{ PRODUCT : "categorized by"  
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
+## Specifying Attributes
 
-`ORDER_DETAIL` can is often referred to as `LINE_ITEM`.
+Attributes and types can be listed for an entity inside curly braces:
 
-## Basic Relationship Notations in Mermaid
+```mermaid
+erDiagram
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    CUSTOMER ||--o{ ORDER : places
+```
 
-The difference between `||--o{` and `||--{` in Mermaid ER diagrams lies in the optionality of the relationship at one end:
+```
+erDiagram
+    CUSTOMER {
+        string name
+        string custNumber
+        string sector
+    }
+    ORDER {
+        int orderNumber
+        string deliveryAddress
+    }
+    CUSTOMER ||--o{ ORDER : places
+```
 
-1. **`||--o{`**: Represents a **one-to-zero-or-many** relationship.
-    
-    - The `||` on the left indicates a mandatory relationship on that end (meaning every instance of the left entity must relate to one or more instances of the right entity).
-        
-    - The `o{` on the right indicates an optional relationship (meaning instances of the right entity may or may not relate to any instances of the left entity).
-        
-2. **`||--{`**: Represents a **one-to-one-or-many** relationship.
-    
-    - The `||` on the left still indicates a mandatory relationship on that end.
-        
-    - The `{` on the right now indicates that every instance of the right entity must relate to at least one instance of the left entity (a mandatory relationship), allowing for one or many instances.
-        
+### Marking Keys
 
-### Example in Context
+Keys can be marked with the `PK` (primary key), `FK` (foreign key), and `UK` (unique key) keywords, and can also carry a comment:
 
-mermaidCopy codeerDiagram  
-    CUSTOMER ||--o{ ORDER : places    %% CUSTOMER must place zero or many ORDERS  
-    PERSON |--{ PHONE : has    
+```mermaid
+erDiagram
+    CUSTOMER {        
+        string customerId PK
+        string email UK "unique email address"        
+    }
+```
 
-In summary:
+```
+erDiagram
+    CUSTOMER {        
+        string customerId PK
+        string email UK "unique email address"        
+    }
+```
 
-- `||--o{` means "one-to-zero-or-many" (the right side is optional).
-    
-- `||--{` means "one-to-one-or-many" (the right side is mandatory).
-    
-- Each `PERSON` must have at least one `PHONE`.
-    
-- Each `PHONE` is associated with exactly one `PERSON`.
-    
+In the `CUSTOMER` table, users are identified by `customerID`, but two users are not allowed to register with the same email address.
 
-## Import Mermaid into draw.io
+## Multi-word / Special Entity Names
 
-① Open [draw.io](https://app.diagrams.net/)!
+Hyphens and underscores in names are not a problem, but if a space or special character is needed, it should be put in quotes:
 
-② Create a blank diagram
+```mermaid
+erDiagram
+    "CAR PARK" ||--o{ CAR : contains
+```
 
-③ Insert Mermaid diagram width `Arrange` / `Insert` / `Advanced`/`Mermaid`
+```
+erDiagram
+    "CAR PARK" ||--o{ CAR : contains
+```
+
+## Relationship Without a Label
+
+The `: relationship_name` part can be omitted, but it is recommended to leave empty quotes for a cleaner appearance:
+
+```mermaid
+erDiagram
+    A ||--|| B : ""
+```
+
+## Full Example
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    PRODUCT ||--o{ LINE-ITEM : "ordered in"
+
+    CUSTOMER {
+        int id PK
+        string name
+        string email UK
+    }
+    ORDER {
+        int id PK
+        int customerId FK
+        date orderDate
+    }
+    LINE-ITEM {
+        int orderId FK
+        int productId FK
+        int quantity
+    }
+    PRODUCT {
+        int id PK
+        string name
+        float price
+    }
+```
+
+This represents a webshop data model: a customer can place multiple orders, an order can contain multiple line items, and each item is linked to a product.
+
+## 1. One-to-Many (Mandatory) — CUSTOMER / ORDER
+
+The `customerId` field of the `ORDER` table references the primary key of the `CUSTOMER` table as a foreign key.
+
+```mermaid
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+
+    CUSTOMER {
+        int customerId PK
+        string name
+        string email
+        string phone
+    }
+    ORDER {
+        int orderId PK
+        int customerId FK
+        date orderDate
+        string status
+    }
+```
+
+```
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+
+    CUSTOMER {
+        int customerId PK
+        string name
+        string email
+        string phone
+    }
+    ORDER {
+        int orderId PK
+        int customerId FK
+        date orderDate
+        string status
+    }
+```
+
+## 2. One-to-One (Mandatory on Both Sides) — PERSON / PASSPORT
+
+The `personId` field of the `PASSPORT` table is both a foreign key and unique (`UK`), since a person can only have one passport.
+
+```mermaid
+erDiagram
+    PERSON ||--|| PASSPORT : has
+
+    PERSON {
+        int personId PK
+        string fullName
+        date birthDate
+    }
+    PASSPORT {
+        string passportNumber PK
+        int personId FK, UK        
+        date expiryDate
+    }
+```
+
+```
+    PERSON ||--|| PASSPORT : has
+
+    PERSON {
+        int personId PK
+        string fullName
+        date birthDate
+    }
+    PASSPORT {
+        string passportNumber PK
+        int personId FK, UK        
+        date expiryDate
+    }
+```
+
+## 3. One-to-One (Optional) — EMPLOYEE / PARKING-SPOT
+
+The `employeeId` field of the `PARKING-SPOT` table is an optional foreign key (it can be empty/NULL if no employee is assigned).
+
+```mermaid
+erDiagram
+    EMPLOYEE ||--o| PARKING-SPOT : "may have"
+
+    EMPLOYEE {
+        int employeeId PK
+        string name
+        string department
+    }
+    PARKING-SPOT {
+        int id PK
+        int employeeId FK "optional, can be NULL"
+        string spotNumber
+        string level
+    }
+```
+
+```
+erDiagram
+    EMPLOYEE ||--o| PARKING-SPOT : "may have"
+
+    EMPLOYEE {
+        int employeeId PK
+        string name
+        string department
+    }
+    PARKING-SPOT {
+        int id PK
+        int employeeId FK "optional, can be NULL"
+        string spotNumber
+        string level
+    }
+```
+
+## 4. Many-to-Many (Mandatory) — STUDENT / COURSE
+
+A many-to-many relationship requires an intermediate (junction) table, because a simple foreign key could not handle the fact that multiple elements can exist on both sides. The `ENROLLMENT` table contains foreign keys pointing to both sides, which together form the composite primary key.
+
+```mermaid
+erDiagram
+    STUDENT }|--|{ COURSE : enrolls
+
+    STUDENT {
+        int id PK
+        string name
+        string major
+    }
+    COURSE {
+        int id PK
+        string title
+        int credits
+    }
+```
+
+```mermaid
+erDiagram
+    STUDENT ||--o{ ENROLLMENT : has
+    COURSE ||--o{ ENROLLMENT : has
+
+    STUDENT {
+        int id PK
+        string name
+        string major
+    }
+    COURSE {
+        int id PK
+        string title
+        int credits
+    }
+    ENROLLMENT {
+        int studentId PK, FK
+        int courseId PK, FK
+        date enrollDate
+        string grade
+    }
+```
+
+```
+erDiagram
+    STUDENT ||--o{ ENROLLMENT : has
+    COURSE ||--o{ ENROLLMENT : has
+
+    STUDENT {
+        int id PK
+        string name
+        string major
+    }
+    COURSE {
+        int id PK
+        string title
+        int credits
+    }
+    ENROLLMENT {
+        int studentId PK, FK
+        int courseId PK, FK
+        date enrollDate
+        string grade
+    }
+```

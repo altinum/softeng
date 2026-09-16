@@ -16,7 +16,7 @@ The abstraction—“press the brake to slow the car”—has leaked. To use the
 
 The same happens in software: an abstraction can hide complexity during normal operation, but unusual conditions, performance problems, or failures often expose the underlying implementation.
 
-### “Excel does the maths”
+## “Excel does the maths”
 
 Excel makes arithmetic feel effortless: you enter a formula, and **Excel does the maths**. However, the abstraction leaks when we encounter the limitations of floating-point numbers. Excel commonly represents numbers using IEEE 754 double-precision floating-point arithmetic, which cannot represent many decimal fractions exactly. For example, `0.1 + 0.2` may internally produce a value slightly different from `0.3`. Excel normally hides these tiny errors by displaying a rounded result, but they can become visible in comparisons, accumulated calculations, or formulas involving many operations. In other words, **Excel does the maths—but the maths is still performed using finite-precision numbers, with all the limitations that entails.**
 
