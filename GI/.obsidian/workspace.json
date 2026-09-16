@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Lecture notes/① Meaning of Bytes/Mermaid erDiagram.md",
+                "file": "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mermaid erDiagram"
+              "title": "_Megoldás"
             }
           }
         ],
@@ -256,8 +256,8 @@
   },
   "active": "bfd5cf07226ad5f8",
   "lastOpenFiles": [
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Mermaid erDiagram.md",
     "BDA/Lecture notes/① Meaning of Bytes/Mermaid erDiagram.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Mermaid erDiagram.md",
     "BDA/Lecture notes/① Meaning of Bytes/Leaky abstractions.md",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "BDA/Labs/① Loan calculator.md",

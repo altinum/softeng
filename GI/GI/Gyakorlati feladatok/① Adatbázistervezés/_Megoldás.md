@@ -194,39 +194,12 @@ erDiagram
         TINYINT timepoint
     }
 
-    CALENDAR {
-        VARCHAR service_id PK
-        DATE start_date
-        DATE end_date
-        BOOLEAN monday
-        BOOLEAN tuesday
-        BOOLEAN wednesday
-        BOOLEAN thursday
-        BOOLEAN friday
-        BOOLEAN saturday
-        BOOLEAN sunday
-    }
-
-    CALENDAR_DATE {
-        VARCHAR service_id PK, FK
-        DATE date PK
-        TINYINT exception_type
-    }
-
     SHAPE {
         VARCHAR shape_id PK
         DECIMAL shape_pt_lat
         DECIMAL shape_pt_lon
         INTEGER shape_pt_sequence PK
         DECIMAL shape_dist_traveled
-    }
-
-    FREQUENCY {
-        VARCHAR trip_id PK, FK
-        VARCHAR start_time PK
-        VARCHAR end_time
-        INTEGER headway_secs
-        TINYINT exact_times
     }
 
     TRANSFER {
@@ -241,13 +214,9 @@ erDiagram
     TRIP ||--o{ STOP_TIME : has
     STOP ||--o{ STOP_TIME : serves
 
-    CALENDAR |o--o{ TRIP : defines_service
-    CALENDAR |o--o{ CALENDAR_DATE : exceptions
-
     SHAPE |o--o{ TRIP : follows
 
-    TRIP ||--o{ FREQUENCY : frequency
-
+   
     STOP ||--o{ TRANSFER : from
     STOP ||--o{ TRANSFER : to_stop
 
@@ -255,6 +224,24 @@ erDiagram
 ```
 
 
+Érdekesség a `Shapes` tábla. Ez alapján lehet megrajzolni az útvonalakat a térképen. Nézzétek meg, hogyan működik. 
 
+```
+shape_id,shape_pt_sequence,shape_pt_lat,shape_pt_lon,shape_dist_traveled
+1,34561,47.506673,19.039419,0.0
+1,34562,47.507135,19.039412,51.0
+1,34563,47.507452,19.039404,86.0
+1,34564,47.507844,19.039402,130.0
+1,34565,47.508083,19.039403,157.0
+1,34566,47.508438,19.039408,197.0
+1,34567,47.509211,19.039417,283.0
+1,34568,47.509496,19.039419,315.0
+1,34569,47.510261,19.039431,400.0
+1,34570,47.510529,19.039435,430.0
+1,34571,47.510846,19.039437,465.0
+1,34572,47.511236,19.039442,508.0
+1,34573,47.511434,19.039445,530.0
+...
+```
 
 
