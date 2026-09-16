@@ -81,30 +81,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Lecture notes/_LLM coding bias & fallacies.md",
+                "file": "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_LLM coding bias & fallacies"
-            }
-          },
-          {
-            "id": "fc7ffc1ed0eab262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tervezési feladat - közlekedési vállalat"
+              "title": "_Megoldás"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -268,27 +254,32 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "fc7ffc1ed0eab262",
+  "active": "2059514d1151ed51",
   "lastOpenFiles": [
-    "BDA/Lecture notes/_Leaky abstractions.md",
-    "Mintaprojektek/Untitled.canvas",
+    "BDA/Labs/① Loan calculator.md",
+    "BDA/Labs/① Loan calculator.md",
+    "BDA/index.md",
+    "BDA/Labs",
+    "BDA/Lecture notes/① Meaning of Bytes/Leaky abstractions.md",
     "BDA/Lecture notes/_LLM coding bias & fallacies.md",
+    "BDA/Lecture notes/① Meaning of Bytes/Mermaid erDiagram.md",
+    "BDA/Lecture notes/① Meaning of Bytes/SQL and CSharp data types.md",
+    "GI/Előadás jegyzetek/① Adatbázis-tervezés/SQL adattípusok.md",
+    "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
+    "Mintaprojektek/Untitled.canvas",
     "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "budapest_gtfs.zip",
     "BDA/Lecture notes/① Meaning of Bytes/_Számábrázolási hibák.md",
     "GI/index.md",
-    "BDA/index.md",
     "GI/Előadás jegyzetek/_Software for Free.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Elnevezési konvenciók.md",
     "Chrome_devtools.mp4.md",
     "GI/Zárthelyik/2. ZH/2. ZH Checklist.md",
     "index.md.md",
-    "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/_Gondoloatok.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Hierarchia kezelése.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Minta erDiagram.md",
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/SQL adattípusok.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Mermaid erDiagram.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Codd élete.md",
     "GI/Előadás jegyzetek/_Webfejlesztés/CSS ismétlés.md",
@@ -300,13 +291,9 @@
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.staticwebassets.runtime.json",
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.runtimeconfig.json",
     "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.pdb",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.exe",
     "GI/Előadás jegyzetek/_Excel programing/Excel COM automation in CSharp.md",
     "GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/Tankönyvtámogatás példa.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/asp_net_azure.md",
-    "GI/Előadás jegyzetek/_Webfejlesztés/Böngészők piaca.md",
-    "GI/Zárthelyik/3. ZH - projekt ZH/3. ZH feladata.md",
-    "GI/Gyakorlati feladatok/① Adatbázistervezés/1- Adatbázistervezés.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/swagger.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_vs_projecttype.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_azure_webapp.png",

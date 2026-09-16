@@ -81,12 +81,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GI/GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
+                "file": "GI/BDA/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tervezési feladat - közlekedési vállalat"
+              "title": "index"
             }
           }
         ],
@@ -256,9 +256,14 @@
   },
   "active": "bfd5cf07226ad5f8",
   "lastOpenFiles": [
+    "GI/BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
+    "GI/BDA/Lecture notes/① Meaning of Bytes/_Számábrázolási hibák.md",
+    "GI/BDA/Lecture notes/_Leaky abstractions.md",
+    "GI/BDA/Lecture notes/_LLM coding bias & fallacies.md",
+    "GI/BDA/index.md",
+    "GI/GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
     "GI/GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "GI/GI/Gyakorlati feladatok/① Adatbázistervezés/Megoldás.md",
-    "GI/GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
     "GI/Mintaprojektek/Untitled.canvas",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/rest-slideshow 1.html",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/rest-slideshow.html",
@@ -294,16 +299,10 @@
     "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video8.md",
     "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video7.md",
     "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video5.md",
-    "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video6.md",
-    "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video4.md",
-    "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video3.md",
-    "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video2.md",
-    "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/video1.md",
     "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/TextbookSupport_CREATE_FILL.txt",
     "GI/GI/Gyakorlati feladatok/_③ Tankönyvtámogatás",
     "GI/GI/Előadás jegyzetek/_Reguláris kifejezések/validation.zip",
     "GI/GI/Előadás jegyzetek/_Reguláris kifejezések",
-    "GI/BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
     "Corvinus/Lecture notes/Meaning of Bytes/Untitled.canvas",
     "GI/BDA/Lecture notes/Meaning of Bytes/Untitled.canvas",
     "GI/Lecture notes/Meaning of Bytes/Untitled.canvas",
