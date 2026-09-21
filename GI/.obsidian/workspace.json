@@ -11,17 +11,14 @@
             "id": "39aeb482b3fac232",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
-                "viewState": {
-                  "x": 1047.5,
-                  "y": 2134.5,
-                  "zoom": 0
-                }
+                "file": "GI/Előadás jegyzetek/② Excel programing/Az ODF fromátum.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Excel programing"
+              "icon": "lucide-file",
+              "title": "Az ODF fromátum"
             }
           }
         ]
@@ -190,6 +187,10 @@
   },
   "active": "39aeb482b3fac232",
   "lastOpenFiles": [
+    "GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
+    "GI/Előadás jegyzetek/_Software for Free.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel DNA példákkal.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.AssemblyInfo.cs",
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.AssemblyInfoInputs.cache",
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.GeneratedMSBuildEditorConfig.editorconfig",
@@ -200,15 +201,12 @@
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.assets.cache",
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows",
     "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release",
-    "GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
     "GI/Előadás jegyzetek/② Excel programing/Spreadsheet history.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel DNA bikestore.md",
     "BDA/Lecture notes/_Build your professional reputation.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel COM automation in CSharp.md",
-    "GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel VSTO.md",
     "GI/Előadás jegyzetek/② Excel programing/ClosedXML.md",
-    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Debug/net8.0-windows/publish/ExcelDNA_Examples-AddIn64-packed.xll",
     "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
     "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 ClosedXML.md",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
@@ -226,9 +224,7 @@
     "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
     "BDA/Lecture notes/① Meaning of Bytes/_Számábrázolási hibák.md",
     "GI/index.md",
-    "GI/Előadás jegyzetek/_Software for Free.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Elnevezési konvenciók.md",
-    "Chrome_devtools.mp4.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/swagger.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_vs_projecttype.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_azure_webapp.png",

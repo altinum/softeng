@@ -44,7 +44,6 @@
 			"height":340,
 			"color":"5"
 		},
-		{"id":"682caac29248e14d","type":"file","file":"BDA/Lecture notes/_Build your professional reputation.md","x":480,"y":320,"width":520,"height":340,"color":"5"},
 		{
 			"id":"ad7fbb901bdedb11",
 			"type":"text",
@@ -110,7 +109,39 @@
 			"width":500,
 			"height":780
 		},
-		{"id":"3b95712772d00c54","type":"text","text":"# Lambdas, LET & new Excel features\n\n``` excel\n=MAP(szamok#,LAMBDA(x,x*2))\n```\n\n``` excel\n=LET(\n    adatok,A10#,\n    ár,CHOOSECOLS(adatok,1),\n    darab,CHOOSECOLS(adatok,2),\n    ár*darab\n)\n\n```\n","x":1020,"y":1480,"width":535,"height":780}
+		{"id":"3b95712772d00c54","type":"text","text":"# Lambdas, LET & new Excel features\n\n``` excel\n=MAP(szamok#,LAMBDA(x,x*2))\n```\n\n``` excel\n=LET(\n    adatok,A10#,\n    ár,CHOOSECOLS(adatok,1),\n    darab,CHOOSECOLS(adatok,2),\n    ár*darab\n)\n\n```\n","x":1020,"y":1480,"width":535,"height":780},
+		{
+			"id":"a864f4ef9e66ab7e",
+			"type":"text",
+			"text":"# Szabadalommal védhető lett volna?\n\nSzabadalmi oltalmat olyan **technikai jellegű találmány** kaphat, amely megfelel három együttes feltételnek:\n\n1. **Új**: a bejelentés napjáig sehol a világon nem vált nyilvánosan ismertté (a saját korábbi közzététel is ártalmas lehet).\n2. **Feltalálói tevékenységen alapul**: a szakember számára nem nyilvánvaló az addigi ismeretekből.\n3. **Iparilag alkalmazható**: valamilyen gazdasági ágazatban (a mezőgazdaságot is beleértve) megvalósítható vagy használható.\n\n**Mi lehet a találmány tárgya?**\n\n- termék (eszköz, gép, anyag, vegyület, gyógyszer)\n- eljárás (gyártási vagy vegyi folyamat, mérési módszer)\n- valamely ismert dolog új felhasználása (pl. egy ismert hatóanyag új gyógyászati indikációja)\n- biotechnológiai találmány (pl. mikroorganizmus, izolált génszekvencia meghatározott technikai eljárással előállítva, feltéve, hogy az ipari alkalmazhatósága is leírható)\n\n**Ami nem védhető** (az Európai Szabadalmi Egyezmény és a magyar szabadalmi törvény szerint, \"mint olyan\"):\n\n- felfedezések, tudományos elméletek, matematikai módszerek\n- esztétikai alkotások (ezekre a szerzői jog vagy a formatervezési minta való)\n- szellemi tevékenységre vonatkozó tervek, szabályok, módszerek, játékszabályok, üzleti módszerek\n- számítógépi programok mint olyanok, információk megjelenítése\n- az emberi vagy állati test sebészeti, terápiás kezelési és diagnosztikai eljárásai\n- növény- és állatfajták, valamint az alapvetően biológiai eljárások\n- a közrendbe vagy erkölcsbe ütköző találmányok (pl. emberi klónozás)\n\n**A szoftver helyzete** az előző témánkhoz kapcsolódik. Európában egy program akkor védhető, ha \"további technikai hatása\" van (pl. egy ipari folyamat vezérlése, adattömörítés technikai megoldása, a számítógép működésének javítása), és nem csupán absztrakt algoritmus vagy üzleti logika. Az USA-ban a szabadalmazhatóság szélesebb volt, de az _Alice v. CLS Bank_ (2014) döntés után sok szoftverszabadalmat érvénytelenítettek \"absztrakt ötlet\" címén.",
+			"styleAttributes":{},
+			"x":480,
+			"y":-60,
+			"width":520,
+			"height":340,
+			"color":"5"
+		},
+		{
+			"id":"c9620efe7868147e",
+			"type":"text",
+			"text":"# Build your Reputation\n\nStack Overflow has definitely declined as a reputation-building platform. Here are the main ways people build technical reputation now:\n\n**Writing**\n\n- Substack or a personal blog — long-form technical writing still carries a lot of weight\n- Writing for established publications like ACM, IEEE, or industry blogs\n\n**Building things in public**\n\n- GitHub — a well-maintained repo with real users is probably the strongest signal today\n- Contributing meaningfully to high-profile open source projects\n\n**Video / Streaming**\n\n- YouTube tutorials or deep-dives\n- Twitch coding streams (niche but has a dedicated audience)\n\n**Speaking**\n\n- Conference talks (GDC, PyCon, Strange Loop, etc.) — still very effective, hard to fake\n- Local meetups to start building toward bigger stages\n\n**Social platforms**\n\n- Twitter/X still works for technical audiences, especially for sharing ideas and research\n- LinkedIn has gotten surprisingly serious for engineering content\n- Bluesky is growing as an alternative\n\n**Communities**\n\n- Discord servers around specific technologies\n- Hacker News — a well-received post or comment there still carries real signal\n\n---\n\nThe approach that still works best is Erin Catto's: **build something genuinely useful and let it speak for itself.**",
+			"styleAttributes":{},
+			"x":480,
+			"y":320,
+			"width":520,
+			"height":340,
+			"color":"5"
+		},
+		{
+			"id":"02f76993673fb0f7",
+			"type":"text",
+			"text":"# Python for Excel\n\nIt runs in a VM in the cloud, so \n- it cannot access files from local folders. \n- I can not download stuff from the web. ",
+			"styleAttributes":{},
+			"x":1600,
+			"y":1480,
+			"width":520,
+			"height":320
+		}
 	],
 	"edges":[
 		{
@@ -147,24 +178,6 @@
 			"fromNode":"29d06c7d0474467b",
 			"fromSide":"right",
 			"toNode":"ad7fbb901bdedb11",
-			"toSide":"left"
-		},
-		{
-			"id":"a34a9dcda228052a",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"ad7fbb901bdedb11",
-			"fromSide":"right",
-			"toNode":"682caac29248e14d",
-			"toSide":"left"
-		},
-		{
-			"id":"2411fea9b306e5ca",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"682caac29248e14d",
-			"fromSide":"right",
-			"toNode":"616864ce67fa5fd5",
 			"toSide":"left"
 		},
 		{

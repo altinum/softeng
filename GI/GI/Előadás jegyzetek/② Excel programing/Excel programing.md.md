@@ -1,4 +1,4 @@
-[[Excel DNA]] - Ezt a technológiát javasolja arra a Microsoft, hogy új **bővítményt írjunk az Excelhez**. Készíthetünk saját függvényt C# alatt, de kicsit körülményesebben akár még saját ribbon bár is összehozható. 
+[[Excel DNA példákkal]] - Ezt a technológiát javasolja arra a Microsoft, hogy új **bővítményt írjunk az Excelhez**. Készíthetünk saját függvényt C# alatt, de kicsit körülményesebben akár még saját ribbon bár is összehozható. 
 
 [[Excel VSTO]] - Ez a Microsoft régi technológiája, Excel bővítményes saját függvények készítésére. Ma már nem aktívan fejlesztett, viszont támogatott. Sok vállalatnál van még erre a technológiára épülő, aktív használatban lévő bővítmény. 
 

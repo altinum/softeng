@@ -79,15 +79,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "GI/GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
+                "file": "GI/GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
                 "viewState": {
-                  "x": 450,
-                  "y": 1710,
-                  "zoom": 0
+                  "x": 1519.3264075067025,
+                  "y": 1787.563342357768,
+                  "zoom": 0.006784604567109387
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Excel programing"
+              "title": "Excel lecture canvas"
             }
           }
         ],
@@ -257,8 +257,15 @@
   },
   "active": "bfd5cf07226ad5f8",
   "lastOpenFiles": [
+    "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA példákkal.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA bikestore.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
+    "GI/GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
+    "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA példákka.md",
+    "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release/net8.0-windows",
+    "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release",
+    "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows",
+    "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release",
     "GI/GI/Előadás jegyzetek/② Excel programing/Spreadsheet history.md",
     "GI/BDA/index.md",
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Debug/net8.0-windows/refint/ExcelAutomation.dll",
@@ -267,10 +274,6 @@
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ref",
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.GlobalUsings.g.cs",
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.GeneratedMSBuildEditorConfig.editorconfig",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.csproj.AssemblyReference.cache",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.assets.cache",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.AssemblyInfoInputs.cache",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.AssemblyInfo.cs",
     "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 ClosedXML.md",
     "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/Excel COM automation.md",
     "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
@@ -295,9 +298,6 @@
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/CSS ismétlés.md",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/Böngészők piaca.md",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/1618339014570.png",
-    "GI/GI/Gyakorlati feladatok/_② Excel DNA & ClosedXML/Excel COM automation.md",
-    "GI/GI/Gyakorlati feladatok/_② Excel DNA & ClosedXML/🛠 ClosedXML.md",
-    "GI/GI/Gyakorlati feladatok/_② Excel DNA & ClosedXML/🛠 Excel DNA.md",
     "GI/GI/Gyakorlati feladatok/_CSV kezelése/working_databinding.gif",
     "GI/GI/Gyakorlati feladatok/_CSV kezelése/solution_explorer_dependency.png",
     "GI/GI/Gyakorlati feladatok/_CSV kezelése/set_textbox_databinding.gif",
