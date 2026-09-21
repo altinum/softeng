@@ -4,93 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "7732e42fe0f1c7ad",
+        "id": "96e70f773fe66ca6",
         "type": "tabs",
         "children": [
           {
-            "id": "fff0b42fdce8d6e0",
+            "id": "39aeb482b3fac232",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
+                "file": "GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
+                "viewState": {
+                  "x": 1047.5,
+                  "y": 2134.5,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
+              "icon": "lucide-layout-dashboard",
               "title": "Excel programing"
-            }
-          },
-          {
-            "id": "e44337805ddd34bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel programing"
-            }
-          },
-          {
-            "id": "8ea32f817962e67c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel programing"
-            }
-          },
-          {
-            "id": "b92050f7f9dbf363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/My gerat idea.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "My gerat idea"
-            }
-          },
-          {
-            "id": "d3ec82d08a30a70e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Corvinus/Fusion_Single_Install_Instructions_11042024.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Fusion_Single_Install_Instructions_11042024"
-            }
-          },
-          {
-            "id": "bfd5cf07226ad5f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "_Megoldás"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -254,46 +188,47 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "bfd5cf07226ad5f8",
+  "active": "39aeb482b3fac232",
   "lastOpenFiles": [
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.AssemblyInfo.cs",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.AssemblyInfoInputs.cache",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.GeneratedMSBuildEditorConfig.editorconfig",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.csproj.AssemblyReference.cache",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release/net8.0-windows",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.GlobalUsings.g.cs",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows/ExcelDNA_Examples.assets.cache",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release/net8.0-windows",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/obj/Release",
+    "GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
+    "GI/Előadás jegyzetek/② Excel programing/Spreadsheet history.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel DNA bikestore.md",
+    "BDA/Lecture notes/_Build your professional reputation.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel COM automation in CSharp.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
+    "GI/Előadás jegyzetek/② Excel programing/Excel VSTO.md",
+    "GI/Előadás jegyzetek/② Excel programing/ClosedXML.md",
+    "Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Debug/net8.0-windows/publish/ExcelDNA_Examples-AddIn64-packed.xll",
+    "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
+    "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 ClosedXML.md",
+    "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "BDA/Lecture notes/① Meaning of Bytes/Mermaid erDiagram.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Mermaid erDiagram.md",
     "BDA/Lecture notes/① Meaning of Bytes/Leaky abstractions.md",
-    "GI/Gyakorlati feladatok/① Adatbázistervezés/_Megoldás.md",
     "BDA/Labs/① Loan calculator.md",
     "BDA/Labs/① Loan calculator.md",
     "BDA/index.md",
-    "BDA/Labs",
     "BDA/Lecture notes/_LLM coding bias & fallacies.md",
     "BDA/Lecture notes/① Meaning of Bytes/SQL and CSharp data types.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/SQL adattípusok.md",
     "GI/Gyakorlati feladatok/① Adatbázistervezés/Tervezési feladat - közlekedési vállalat.md",
     "Mintaprojektek/Untitled.canvas",
     "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
-    "budapest_gtfs.zip",
     "BDA/Lecture notes/① Meaning of Bytes/_Számábrázolási hibák.md",
     "GI/index.md",
     "GI/Előadás jegyzetek/_Software for Free.md",
     "GI/Előadás jegyzetek/① Adatbázis-tervezés/Elnevezési konvenciók.md",
     "Chrome_devtools.mp4.md",
-    "GI/Zárthelyik/2. ZH/2. ZH Checklist.md",
-    "index.md.md",
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/_Gondoloatok.md",
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Hierarchia kezelése.md",
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Minta erDiagram.md",
-    "GI/Előadás jegyzetek/① Adatbázis-tervezés/Codd élete.md",
-    "GI/Előadás jegyzetek/_Webfejlesztés/CSS ismétlés.md",
-    "Mintaprojektek/Pasacal JS/Pasacal/obj/Debug/net6.0/refint/Pasacal.dll",
-    "Mintaprojektek/Pasacal JS/Pasacal/obj/Debug/net6.0/ref/Pasacal.dll",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.staticwebassets.runtime.json",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.runtimeconfig.json",
-    "Mintaprojektek/Pasacal JS/Pasacal/bin/Debug/net6.0/Pasacal.pdb",
-    "GI/Előadás jegyzetek/_Excel programing/Excel COM automation in CSharp.md",
-    "GI/Gyakorlati feladatok/_③ Tankönyvtámogatás/Tankönyvtámogatás példa.md",
-    "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/asp_net_azure.md",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/swagger.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_vs_projecttype.png",
     "GI/Gyakorlati feladatok/_ASP .NET/ASP .NET projekt létrehozása/se_azure_webapp.png",

@@ -82,7 +82,6 @@ public static object[,] GetProductData()
 
 ## Adatbázis olvasása async
 
-Ez csak egy példa, nem kell megycsinálni
 
 ```c#
 [ExcelFunction(IsVolatile = false)]
@@ -104,7 +103,7 @@ public static object[,] GetProductDataAsync()
 
 ## Saját Ribbon Bar
 
-Ez sem kell gyakorlaton, de azért leírjuk :) Saját ribbon bar-t i s lehet csinálni. 
+Ez nem kell gyakorlaton, de azért leírjuk :) Saját ribbon bar-t i s lehet csinálni. 
 
 ```c#
 using ExcelDna.Integration;
