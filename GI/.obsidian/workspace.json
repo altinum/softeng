@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GI/Előadás jegyzetek/② Excel programing/Az ODF fromátum.md",
+                "file": "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Az ODF fromátum"
+              "title": "🛠 Excel DNA"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "39aeb482b3fac232",
   "lastOpenFiles": [
+    "GI/Előadás jegyzetek/② Excel programing/Az ODF fromátum.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
     "GI/Előadás jegyzetek/_Software for Free.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel DNA példákkal.md",

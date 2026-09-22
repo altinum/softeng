@@ -64,6 +64,24 @@ Készíts véletlenekből álló spill array-t visszaadó függvényt. Legyen pa
 
 Csinálj custom Excel függvényt, ami egy adatbázistábát olvas be. 
 
+A `Microsoft.EntityFrameworkCore.Tools` és a `Microsoft.EntityFrameworkCore.SqlServer` a NuGet konzolán keresztül ezzel a két paranccsal is hozzáadható a projekthez:
+
+```powershell
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.EntityFrameworkCore.Tools
+```
+
+A Scaffold parancsot a ZH-n is készen kapjátok:
+
+```powershell
+Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=se_bikestore;Persist Security Info=True;User ID=hallgato;Password=Password123;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir BikestoreModels
+```
+
+Emlékeztetőül a séma:
+[![image-20250429181520395](https://altinum.github.io/docfx_softeng/softtech/bikestore_mintazh/image-20250429181520395.png)](https://altinum.github.io/docfx_softeng/softtech/bikestore_mintazh/image-20250429181520395.png)
+
+Válassz egy táblát, és a tartalmát olvasd be az alábbi kódminta felhasználásával:
+
 ```c#
 [ExcelFunction(IsVolatile = false)]
 public static object[,] GetProductData()
@@ -82,6 +100,7 @@ public static object[,] GetProductData()
 
 ## Adatbázis olvasása async
 
+Ez csak kiegészítés. Ezzel a megoldással nem áll az Excel, amíg vár az adatokra:
 
 ```c#
 [ExcelFunction(IsVolatile = false)]
@@ -99,38 +118,49 @@ public static object[,] GetProductDataAsync()
 }
 ```
 
-
-
 ## Saját Ribbon Bar
 
-Ez nem kell gyakorlaton, de azért leírjuk :) Saját ribbon bar-t i s lehet csinálni. 
+Saját ribbon bar-t i s lehet csinálni. Próbáljátok ki! Ribbon bar szerkesző ebben a megoldásban nem elérhető, előadáson megmutatjuk, hogyan lehet egyszerűen tervezni. 
 
 ```c#
-using ExcelDna.Integration;
-using ExcelDna.Integration.CustomUI;
-public class MyRibbon : ExcelRibbon
-{
-    public override string GetCustomUI(string ribbonId)
-    {
-        return @"
-        <customUI xmlns='http://schemas.microsoft.com/office/2009/07/customui'>
-          <ribbon>
-            <tabs>
-              <tab id='MyTab' label='My Add-In'>
-                <group id='MyGroup' label='Actions'>
-                  <button id='Btn1' label='Click Me' onAction='OnWriteCellClick'/>
-                </group>
-              </tab>
-            </tabs>
-          </ribbon>
-        </customUI>";
-    }
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-    public void OnWriteCellClick(IRibbonControl control)
-    {
-        System.Diagnostics.Debug.WriteLine("OnWriteCellClick triggered");
-        System.Windows.Forms.MessageBox.Show("Button Clicked!");       
-    }
+namespace DelMe
+{
+    using ExcelDna.Integration;
+    using ExcelDna.Integration.CustomUI;
+
+    public class MyRibbon : ExcelRibbon
+    {
+        public override string GetCustomUI(string ribbonId)
+        {
+            return @"<customUI xmlns='http://schemas.microsoft.com/office/2009/07/customui'>
+  <ribbon>
+    <tabs>
+      <tab id='MyTab' label='My Add-In'>
+        <group id='MyGroup' label='Actions'>
+          <button id='Btn1' label='Click Me' imageMso='HappyFace' size='large'
+                  onAction='RunTagMacro' tag='OnWriteCellClick'/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>";
+        }
+    }
+
+    public static class Commands
+    {
+        [ExcelCommand]
+        public static void OnWriteCellClick()
+        {
+            //System.Windows.Forms.MessageBox.Show("Button Clicked!");
+            dynamic app = ExcelDnaUtil.Application;
+            app.ActiveCell.Value2 = "Hello from Excel-DNA";
+        }
+    }
 }
 ```
 

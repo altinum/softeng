@@ -3,7 +3,7 @@
 		{
 			"id":"db891a56fd5d9f28",
 			"type":"text",
-			"text":"# What is Excel?\n\n- IDE\n- Functional programing environment\n- Standard way to exchange data\n",
+			"text":"# What is Excel?\n\n- IDE\n- Functional programing environment\n- Standard way to exchange data\n\n\nHow many Excels do we have?\n",
 			"styleAttributes":{},
 			"x":-640,
 			"y":-440,
@@ -18,17 +18,6 @@
 			"styleAttributes":{},
 			"x":-640,
 			"y":-60,
-			"width":520,
-			"height":340,
-			"color":"3"
-		},
-		{
-			"id":"29d06c7d0474467b",
-			"type":"text",
-			"text":"# Why excel? \n\n- In 1982 Lotus 1-2-3, an electronic spreadsheet that became the best-selling personal-computer software of its day. \n- Microsoft Excel was first released in **1985**, initially for the Apple Macintosh. The Windows version followed in **1987**.\n- VBA (Visual Basic for Applications) was added to Excel in **1993**, with the release of **Excel 5.0**. ",
-			"styleAttributes":{},
-			"x":-640,
-			"y":320,
 			"width":520,
 			"height":340,
 			"color":"3"
@@ -141,6 +130,18 @@
 			"y":1480,
 			"width":520,
 			"height":320
+		},
+		{"id":"32830a0feb2ccc07","x":-640,"y":-720,"width":520,"height":60,"color":"1","type":"text","text":"# Excel for developers"},
+		{
+			"id":"29d06c7d0474467b",
+			"type":"text",
+			"text":"# Why excel? \n\n- In 1982 Lotus 1-2-3, an electronic spreadsheet that became the best-selling personal-computer software of its day. \n- Microsoft Excel was first released in **1985**, initially for the Apple Macintosh. The Windows version followed in **1987**.\n- VBA (Visual Basic for Applications) was added to Excel in **1993**, with the release of **Excel 5.0**. \n\n**The problem of the chicken and the egg**",
+			"styleAttributes":{},
+			"x":-640,
+			"y":320,
+			"width":520,
+			"height":340,
+			"color":"3"
 		}
 	],
 	"edges":[

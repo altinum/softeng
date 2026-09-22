@@ -8,90 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fff0b42fdce8d6e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel programing"
-            }
-          },
-          {
-            "id": "e44337805ddd34bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel programing"
-            }
-          },
-          {
-            "id": "8ea32f817962e67c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/Excel programing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Excel programing"
-            }
-          },
-          {
-            "id": "b92050f7f9dbf363",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Corvinus/Lecture notes/My gerat idea.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "My gerat idea"
-            }
-          },
-          {
-            "id": "d3ec82d08a30a70e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
             "id": "bfd5cf07226ad5f8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "GI/GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
-                "viewState": {
-                  "x": 1519.3264075067025,
-                  "y": 1787.563342357768,
-                  "zoom": 0.006784604567109387
-                }
+                "file": "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Excel lecture canvas"
+              "icon": "lucide-file",
+              "title": "🛠 Excel DNA"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -257,10 +187,14 @@
   },
   "active": "bfd5cf07226ad5f8",
   "lastOpenFiles": [
-    "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA példákkal.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA bikestore.md",
-    "GI/GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
+    "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
+    "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA példákkal.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
+    "GI/Előadás jegyzetek/② Excel programing/Excel DNA bikestore.md",
+    "GI/Előadás jegyzetek/② Excel programing",
+    "GI/Előadás jegyzetek",
+    "GI/GI/Előadás jegyzetek/② Excel programing/Excel programing.canvas",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA példákka.md",
     "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release/net8.0-windows",
     "GI/Mintaprojektek/ExcelDNA/ExcelDNA_Examples/ExcelDNA_Examples/bin/Release",
@@ -272,11 +206,8 @@
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Debug/net8.0-windows/ref/ExcelAutomation.dll",
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/refint",
     "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ref",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.GlobalUsings.g.cs",
-    "GI/Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Release/net8.0-windows/ExcelAutomation.GeneratedMSBuildEditorConfig.editorconfig",
     "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 ClosedXML.md",
     "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/Excel COM automation.md",
-    "GI/GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel VSTO.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
     "GI/GI/Előadás jegyzetek/② Excel programing/Excel DNA.md",
@@ -296,7 +227,6 @@
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/1619037748999.png",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/HTTP és a REST.md",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/CSS ismétlés.md",
-    "GI/GI/Előadás jegyzetek/_Webfejlesztés/Böngészők piaca.md",
     "GI/GI/Előadás jegyzetek/_Webfejlesztés/1618339014570.png",
     "GI/GI/Gyakorlati feladatok/_CSV kezelése/working_databinding.gif",
     "GI/GI/Gyakorlati feladatok/_CSV kezelése/solution_explorer_dependency.png",
