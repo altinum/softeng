@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{
+			"id":"46639a7f062f1944",
+			"type":"text",
+			"text":"**IDE-native tools**\n\n- **Cursor** — VS Code fork with AI woven throughout (autocomplete, chat, multi-file editing, background agents). Currently the fastest-growing player in the space by revenue.\n- **Windsurf** — similar agentic-editor category, generally positioned as more budget-friendly.\n- **Zed** — a fast, AI-native editor.\n- **Google Antigravity** — an agent-first IDE built around Gemini 3, currently in free public preview; often cited as the closest match to Claude Code's workflow.\n\n**CLI/terminal agents (the most direct comparisons)**\n\n- **OpenAI Codex CLI** — OpenAI's terminal + app agent, with cloud execution and parallel agent runs.\n- **Gemini CLI** — Google's terminal agent, notable for a generous free tier and Google Search grounding.\n- **Aider** — a longstanding open-source terminal pair-programming tool, popular for git-native workflows.\n- **OpenCode** — open-source, model-agnostic CLI (bring your own API key from various providers).\n- **Amazon Q Developer CLI** — AWS's entrant, cloud/vendor-integrated.\n\n**Editor extensions / assistants**\n\n- **GitHub Copilot** — now includes an agent mode that can go from issue to pull request autonomously, deeply integrated into GitHub workflows.\n- **Cline** — open-source VS Code extension for agentic coding.",
+			"styleAttributes":{},
+			"x":-660,
+			"y":-400,
+			"width":680,
+			"height":460
+		},
+		{
+			"id":"62ce91272fb9473b",
+			"type":"text",
+			"text":"https://frame.work/hu/en/desktop?tab=machine-learning",
+			"styleAttributes":{},
+			"x":-660,
+			"y":100,
+			"width":680,
+			"height":60
+		},
+		{
+			"id":"04d3cc2d6f15f443",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":40,
+			"y":-400,
+			"width":1140,
+			"height":460
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

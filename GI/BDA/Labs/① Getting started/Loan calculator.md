@@ -1,3 +1,11 @@
+
+## Objective
+
+- Get to know the Visual Studio 2026 IDE
+- Create a "Windows Forms Application" project
+- Create simple UI
+- C# language basics
+
 ## Calculating the Cost of a Loan
 
 > [!note]
@@ -52,39 +60,3 @@ private void btnOk_Click(object sender, EventArgs e)
 
 ```
 
-## User input error handling
-
-This version of the code does not check for user input errors. If the user enters invalid data in the text boxes in such a way that conversion to a decimal is not possible—for example, by entering a letter—the execution fails with a runtime error.
-
-To avoid this, we use a safe way to convert text to a decimal, as shown below.
-
-```csharp
-private void button1_Click(object sender, EventArgs e)
-{
-    decimal loanAmount = 0;
-
-    if (!decimal.TryParse(textBoxLoanAmount.Text, out loanAmount))
-    {
-        textBoxLoanAmount.BackColor = Color.Salmon;
-        return;
-    }
-    
-    ...
-```
-
-> [!IMPORTANT]
->
-> Please learn and remember this code pattern, as it is an important one!
-
-Once we change the color of the text box to `Color.Salmon`, the new background color remains forever — or at least until the application terminates. When the user corrects the mistake by modifying the text in the TextBox, we should change the color back to white.
-
-```csharp
-private void textBoxLoanAmount_TextChanged(object sender, EventArgs e)
-{
-    textBoxLoanAmount.BackColor = Color.White;
-}
-```
-
-## Tasks 
-
-Please make the conversion safe for the remaining two TextBoxes as well!

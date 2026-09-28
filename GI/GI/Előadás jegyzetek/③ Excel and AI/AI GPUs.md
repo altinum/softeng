@@ -1,0 +1,24 @@
+Here's a side-by-side. Benchmark numbers come from different sources, frameworks and quantizations, so treat them as rough guides.
+
+|                                                | **NVIDIA H100**                                               | **RTX 5090**                                                | **AMD Strix Halo (Ryzen AI Max+ 395)**                                      |
+| ---------------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Type**                                       | Datacenter GPU                                                | Consumer GPU                                                | APU (CPU + GPU + NPU in one chip)                                           |
+| **Memory**                                     | 80 GB HBM3                                                    | 32 GB GDDR7                                                 | Up to 128 GB unified, ~96 GB allocatable to the GPU (AMD says up to 112 GB) |
+| **Memory bandwidth**                           | ~3,350 GB/s                                                   | ~1,792 GB/s                                                 | ~256 GB/s theoretical, ~212-215 GB/s measured                               |
+| **Buy price**                                  | ~$25,000-40,000 (card only)                                   | Roughly $2k-class (MSRP $1,999; street prices often higher) | $2,500-4,000 for a complete 64-128 GB mini PC                               |
+| **Rent price**                                 | ~$2.11/hr (PCIe, budget cloud), up to ~$12/hr on major clouds | ~$0.76/hr                                                   | n/a                                                                         |
+| **Small model (8B, FP16, batched throughput)** | ~4,200 tok/s (PCIe)                                           | ~3,500 tok/s                                                | Not benchmarked in these sources                                            |
+| **32B, Q4 (batched throughput)**               | ~1,400 tok/s                                                  | ~1,100 tok/s                                                | n/a                                                                         |
+| **30B MoE (Qwen3-30B-A3B), single user**       | n/a                                                           | n/a                                                         | ~86 tok/s                                                                   |
+| **~120B MoE, single user**                     | n/a                                                           | Doesn't fit in 32 GB                                        | ~31-55 tok/s                                                                |
+| **70B dense Q4, single user**                  | ~55-70 tok/s                                                  | Doesn't fit on one card (see note)                          | ~4-12 tok/s                                                                 |
+| **Power**                                      | ~350 W (PCIe) to 700 W (SXM)                                  | ~575 W                                                      | Roughly 45-120 W for the chip (from general knowledge)                      |
+| **Software**                                   | CUDA, fully mature                                            | CUDA, fully mature                                          | ROCm/Vulkan, workable but less polished                                     |
+
+**Note on 70B on the 5090:** one blog claims 30-40 tok/s, but a 4-bit 70B model is around 43 GB, which exceeds the card's 32 GB. A dual-5090 test measured ~27 tok/s on 70B models. I'd trust that over the single-card claim. A single 5090 would need CPU offload, which slows it a lot. [rtx 5090 vs h100 for llm in 2026 2k vs 30k debate 3cph +2](https://dev.to/thurmon_demich/rtx-5090-vs-h100-for-llm-in-2026-2k-vs-30k-debate-3cph)
+
+**How to read this:**
+
+- **H100:** roughly 2x the bandwidth and memory of the 5090, at about 15x the price. It pulls furthest ahead when serving many users at once, or with models over 32 GB. [dev](https://dev.to/thurmon_demich/rtx-5090-vs-h100-for-llm-in-2026-2k-vs-30k-debate-3cph)
+- **RTX 5090:** the best speed per dollar for anything that fits in 32 GB, such as 8B-32B models, image generation and fine-tuning.
+- **Strix Halo:** the slowest of the three, but it can load models neither consumer GPU can. It does best with MoE models, which activate only a few billion parameters per token. Dense 70B models are slow because the memory bandwidth is low.
