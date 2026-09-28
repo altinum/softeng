@@ -11,14 +11,17 @@
             "id": "c7531e4f7c42492f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "GI/Előadás jegyzetek/③ Excel and AI/AI GPUs.md",
-                "mode": "source",
-                "source": false
+                "file": "GI/Előadás jegyzetek/③ Excel and AI/AI Tools.canvas",
+                "viewState": {
+                  "x": 260,
+                  "y": -120,
+                  "zoom": -0.40367763711429605
+                }
               },
-              "icon": "lucide-file",
-              "title": "AI GPUs"
+              "icon": "lucide-layout-dashboard",
+              "title": "AI Tools"
             }
           }
         ]
@@ -187,6 +190,7 @@
   },
   "active": "c7531e4f7c42492f",
   "lastOpenFiles": [
+    "GI/Előadás jegyzetek/③ Excel and AI/AI GPUs.md",
     "Mintaprojektek/Pasacal JS/Pasacal/obj/Release/net6.0/Pasacal.csproj.AssemblyReference.cache",
     "Mintaprojektek/Hajos/Hajos/obj/Release/net6.0/Hajos.csproj.AssemblyReference.cache",
     "Mintaprojektek/Pasacal JS/Pasacal/obj/Debug/net6.0/Pasacal.csproj.AssemblyReference.cache",
@@ -196,7 +200,6 @@
     "Mintaprojektek/ExcelClosedXMLExample/ExcelAutomationExample/obj/Debug/net8.0-windows/ExcelAutomationExample.csproj.AssemblyReference.cache",
     "Mintaprojektek/EgeresGomb/ExcelAutomation/obj/Debug/net8.0-windows/ExcelAutomation.csproj.AssemblyReference.cache",
     "GI/Előadás jegyzetek/③ Excel and AI/Névtelen.md",
-    "GI/Előadás jegyzetek/③ Excel and AI/AI GPUs.md",
     "GI/Előadás jegyzetek/③ Excel and AI/AI Tools.canvas",
     "GI/Előadás jegyzetek/③ Excel and AI/_Topics.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel programing.md.md",
@@ -207,7 +210,6 @@
     "BDA/Labs/③ Snake game/Snake Game.md",
     "BDA/Labs/② CSharp basics/Loan calculator v2.md",
     "BDA/Labs/③ Snake game",
-    "BDA/Lecture notes/② Variables and calsses",
     "BDA/Labs/① Getting started/Loan calculator.md",
     "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 Excel DNA.md",
     "GI/Előadás jegyzetek/② Excel programing/Az ODF fromátum.md",
