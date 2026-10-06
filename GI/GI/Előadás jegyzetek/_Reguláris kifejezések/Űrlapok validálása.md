@@ -183,15 +183,15 @@ private void button1_Click(object sender, EventArgs e)
 
 A `ToolTip` segítségével a felhasználót segítő üzenetet lehet rendelni a vezérlőkhöz.
 
-![1615051267868.png](1615051267868.png)
+![1615051267868.png](GI/Előadás%20jegyzetek/_Reguláris%20kifejezések/1615051267868.png)
 
 🅔 Az űrlapon egyetlen `ToolTip` típusú objektumot érdemes elhelyezni, ez fogja kezelni az összes vezérlőhöz tartozó szöveget. A *Properties* panelben a megjelenés késleltetését, időtartamát, méretét, stb. egységesen a `toolTip1` tulajdonsági között lehet beállítani.  
 
-![1615051616183.png](1615051616183.png)
+![1615051616183.png](GI/Előadás%20jegyzetek/_Reguláris%20kifejezések/1615051616183.png)
 
 🅕 Ha van `ToolTip` az űrlapon, minden vezérlőhöz be lehet állítani a szöveget:
 
-![1615051851465.png](1615051851465.png)
+![1615051851465.png](GI/Előadás%20jegyzetek/_Reguláris%20kifejezések/1615051851465.png)
 
 Érdemes a `Label`-ekre is beállítani a `ToolTip`-eket, mert a `TextBox`-ok esetén elég nehéz egérrel eltaláni azt a pontot, amikor feljönnek.
 

@@ -19,7 +19,7 @@
 | 2026‑09‑14     | 1. hét        | MarkDown, Obsidian, Mermaid, Adatbázis tervezés                      | Adatb. tervezés                                  |
 | 2026-09-21     | 2. hét        | Excel programozás                                                    | Excel programozás                                |
 | 2026-09-28     | 3. hét        | Kódolás & AI                                                         | Tankönyvtámogatás                                |
-| 2026-10-5      | 4. hét        | Git, Reguláris kifejezések                                           | Új rekord rögzítése validált űrlapon             |
+| 2026-10-5      | 4. hét        | Reguláris kifejezések                                                | Új rekord rögzítése validált űrlapon             |
 | 2026-10-12     | 5. hét        |                                                                      | Master-detail relációk                           |
 | 2026-10-19     | 6. hét        | Látókörbővítő: automatizált tőzsdei kereskedelem, startupok működése | CSV és XML írása                                 |
 | 2026-10-26     | Őszi szünet   |                                                                      |                                                  |

@@ -37,13 +37,13 @@ FILTER
 `= {1,2;3,4}` Azért fontos, mert kódból generált Excel táblánál lehet egyetlen string a cellában
 
 Adattáblák kezelése, oszlopok kiolvasása:
-```
+``` excel
 =categories[#all]
 =categories[category_name]
 ```
 
 Dinamikus tömbök oszlopainak, sorainak, illetve egyes celláinak kiválasztása: 
-```
+``` excel
 =CHOOSECOLS(A1#,2)
 =CHOOSECOLS(A1#,2,3)
 =INDEX(A1#,,1)
@@ -51,34 +51,33 @@ Dinamikus tömbök oszlopainak, sorainak, illetve egyes celláinak kiválasztás
 ```
 
 Táblák összekapcsolása:
-```
+``` excel
 XLOOKUP
 ```
 
 Bonyolultabb kifejezések és a `LET`:
-```
+``` excel
 =LET(
 ár, CHOOSECOLS(A1,6))
 ár * 1.27
 ```
 
 Saját függvények definiálása:
-```
+``` excel
 LAMBDA
 ```
 
 Táblák rendezése, szűrése:
-```
+``` excel
 SORT
 FILTER
 ```
 
 `GROUP BY`-szerű csoportosítás és csoportonkénti összegzés:
-```
+``` excel
 UNIQUE
 SUMIFS
 ```
-
 
 
 ## JSON beolvasása Power Query-vel WebAPI-ból. 
