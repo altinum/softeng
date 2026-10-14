@@ -1,25 +1,3 @@
-
-
----
-
-# Trendforduló
-
-Az eddigi stratégia nem működik
-
-Tőzsdés téma
-
-Indiai KRESZ példa - GPS-el minden megváltozik. Szeg apukája. Nice-to-have skill. 
-Aztán majd lehet, hogy a taxis is megszűnik
-
-iGO NNG story - 2014-ben 23,5 milliárd forint volt a bevétel
-Aftermarket 65% 2014-ben. Beépített 40% 2015-ben. 
-
-Gyula és a mobil szerviz
-
-
-
----
-
 # Mi az, ami fontos lesz, és mi nem?
 
 (-) Hogyan tudsz AI nélkül kódot írni.
