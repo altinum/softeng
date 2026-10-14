@@ -32,5 +32,16 @@
             dataGridView1.DataSource = powerUsages;
 
         }
+
+private void buttonOpen_Click(object sender, EventArgs e)
+{
+    OpenFileDialog ofd = new OpenFileDialog();
+            ofd.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+
+            if (ofd.ShowDialog() != DialogResult.OK) return;
+    //If we reach here, the user selected a file and clicked OK
+    string[] lines = File.ReadAllLines(ofd.FileName);
+
+}
     }
 }
