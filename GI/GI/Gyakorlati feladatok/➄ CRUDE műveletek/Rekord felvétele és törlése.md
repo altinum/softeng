@@ -4,8 +4,11 @@
 ### From1
 
 ❶ Hozz létre egy új `Form`-ot `From2` néven!
+
 ❷ A `Form1`-en helyezz el egy gombot `Új hallgató` felirattal, majd a gombhoz rendelj eseménykiszolgálót. 
+
 ❸ Az eseménykiszolgálóban nyisd meg a `Form2`-t és attól függően, hogy a felhasználó melyik gombbal zárta be a `Form2`-t, jeleníts meg eltérő szöveget. (A bezáró gombok később készülnek majd.)
+
 
 ``` csharp
 private void button1_Click(object sender, EventArgs e)
@@ -59,7 +62,7 @@ public partial class FormAddStudent : Form
 
 ❼ Ezután tervezzük meg az űrlapot a nevet és a Neptunkódot tartalmazó mezőkkel :
 
-![1615051267868.png](GI/Gyakorlati%20feladatok/_④%20Adatok%20rögzítése%20validált%20űrlapon/1615051267868.png)
+![[GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051267868.png]]
 
 ❽ A Properties ablakon keresztül a text boxok Text tulajdonságát összeköthetjük a BindingSource vonatkozó tulajdonságaival. Így a felhasználó által beírt szöveg az osztály `NewStudent` tulajdonságán keresztül lesz elérhető. 
 
@@ -138,4 +141,9 @@ private void buttonAdd_Click(object sender, EventArgs e)
 
 }
 ```
+
+## Rekord törlése
+## Megerősítő kérdés kilépés előtt
+
+
 
