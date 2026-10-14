@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Labs/➄ Microsimulation/Files and links.md",
+                "file": "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/Adatok validálása űrlapon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Files and links"
+              "title": "Adatok validálása űrlapon"
+            }
+          },
+          {
+            "id": "4378fc47aa87e09f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GI/Gyakorlati feladatok/➄ CRUDE műveletek/Rekord felvétele és törlése.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rekord felvétele és törlése"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,11 +200,14 @@
       "bases:Új bázis létrehozása": false
     }
   },
-  "active": "dcf513cfc85aac54",
+  "active": "4378fc47aa87e09f",
   "lastOpenFiles": [
+    "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/Adatok validálása űrlapon.md",
+    "GI/Gyakorlati feladatok/➄ CRUDE műveletek/Rekord felvétele és törlése.md",
+    "BDA/Labs/➄ Microsimulation/Files and links.md",
+    "GI/Gyakorlati feladatok/➄ CRUDE műveletek",
     "GI/Előadás jegyzetek/➄ Business as usual/Lecture notes.md",
     "GI/Előadás jegyzetek/➄ Business as usual/_lecture notes.md",
-    "BDA/Labs/➄ Microsimulation/Files and links.md",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.AssemblyInfo.cs",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.AssemblyInfoInputs.cache",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.GeneratedMSBuildEditorConfig.editorconfig",
@@ -199,7 +217,6 @@
     "Mintaprojektek/Microsimulation/Microsimulation/bin/Release/net9.0-windows",
     "Mintaprojektek/Microsimulation/Microsimulation/bin/Release",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.assets.cache",
-    "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows",
     "BDA/Labs/➄ Microsimulation/microsim_theory.md",
     "BDA/Labs/➄ Microsimulation/image002.jpg",
     "BDA/Labs/➄ Microsimulation/image001.gif",
@@ -215,7 +232,6 @@
     "BDA/Labs/⑥ First midtrem/1st Midterm Checklist.md",
     "BDA/index.md",
     "GI/Gyakorlati feladatok/③④ Tankönyvtámogatás/Tankönyvtámogatás példa.md",
-    "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/Adatok validálása űrlapon.md",
     "GI/index.md",
     "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051616183.png",
     "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051267868.png",
@@ -232,7 +248,6 @@
     "GI/Gyakorlati feladatok/③④ Tankönyvtámogatás/Tankönyvtámogatás videók.md",
     "GI/Gyakorlati feladatok/③ Tankönyvtámogatás/video1.md",
     "BDA/Lecture notes/② Variables and calsses/Impicit and Explicit conversions.md",
-    "GI/Előadás jegyzetek/③ Excel and AI/Névtelen.md",
     "GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
     "Mintaprojektek/Untitled.canvas",
     "BDA/Lecture notes/① Meaning of Bytes/Representation of numbers.canvas",
