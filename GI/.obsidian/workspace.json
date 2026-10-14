@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GI/Előadás jegyzetek/➄ Business as usual/Lecture notes.md",
+                "file": "BDA/Labs/➄ Microsimulation/Files and links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lecture notes"
+              "title": "Files and links"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "dcf513cfc85aac54",
   "lastOpenFiles": [
-    "GI/Előadás jegyzetek/➄ Business as usual/_lecture notes.md",
     "GI/Előadás jegyzetek/➄ Business as usual/Lecture notes.md",
+    "GI/Előadás jegyzetek/➄ Business as usual/_lecture notes.md",
     "BDA/Labs/➄ Microsimulation/Files and links.md",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.AssemblyInfo.cs",
     "Mintaprojektek/Microsimulation/Microsimulation/obj/Release/net9.0-windows/Microsimulation.AssemblyInfoInputs.cache",
