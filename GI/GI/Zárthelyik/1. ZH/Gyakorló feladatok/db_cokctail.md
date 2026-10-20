@@ -6,8 +6,13 @@
 
 🅑 Ha az egyetemi szerveren lévő változatot használnád:
 
+``` powershell
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+```
+
 ```powershell
-Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=se_bikestore;User ID=hallgato;Password=Password123;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=se_cocktail;User ID=hallgato;Password=Password123;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 ```
 
 > [!WARNING]

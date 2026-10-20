@@ -20,10 +20,10 @@
 | 2026-09-21     | 2. hét        | Excel programozás                                                    | Excel programozás                                |
 | 2026-09-28     | 3. hét        | Kódolás & AI                                                         | Tankönyvtámogatás                                |
 | 2026-10-5      | 4. hét        | Reguláris kifejezések                                                | Új rekord rögzítése validált űrlapon             |
-| 2026-10-12     | 5. hét        |                                                                      | Master-detail relációk                           |
-| 2026-10-19     | 6. hét        | Látókörbővítő: automatizált tőzsdei kereskedelem, startupok működése | CSV és XML írása                                 |
+| 2026-10-12     | 5. hét        | Hogyan változtatja meg az AI a fejlesztést - beszélgetés             | Master-detail relációk                           |
+| 2026-10-19     | 6. hét        | Összefoglaló az 1. ZH előtt                                          | CSV és XML írása                                 |
 | 2026-10-26     | Őszi szünet   |                                                                      |                                                  |
-| 2026-11-2      | 7. hét        | Összefoglaló az 1. ZH előtt                                          | ==1. ZH== (35 pont)                              |
+| 2026-11-2      | 7. hét        | Látókörbővítő: automatizált tőzsdei kereskedelem, startupok működése | ==1. ZH== (35 pont)                              |
 | 2026-11-9      | 8. hét        | HTML & REST API                                                      | ASP .NET API controllerek                        |
 | 2026-11-16     | 9. hét        |                                                                      |                                                  |
 | 2026-11-23     | 10. hét       | LLM integráció: MCP konnektorok                                      | Saját kód összekpacsolása LLM-el MCP-n keresztül |
