@@ -13,4 +13,3 @@ Scaffold-DbContext "Data Source=bit.uni-corvinus.hu;Initial Catalog=se_bikestore
 
 Emlékeztetőül a séma:
 [![image-20250429181520395](https://altinum.github.io/docfx_softeng/softtech/bikestore_mintazh/image-20250429181520395.png)](https://altinum.github.io/docfx_softeng/softtech/bikestore_mintazh/image-20250429181520395.png)
-
