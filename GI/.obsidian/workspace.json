@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Knowhow/SQLite.md",
+                "file": "BDA/Results/Midterm 1 results.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQLite"
+              "title": "Midterm 1 results"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 344.5
   },
   "right": {
     "id": "d7cb48c338da0102",
@@ -187,9 +187,11 @@
   },
   "active": "4f24ec0c04564a1e",
   "lastOpenFiles": [
+    "BDA/Knowhow/SQLite.md",
+    "BDA/Results/Midterm 1 results.md",
+    "BDA/Results",
     "Pasted image 20261123222448.png",
     "BDA/Labs/⑨ Cocktails example/Source code.md",
-    "BDA/Knowhow/SQLite.md",
     "BDA/Labs/⑨ Cocktails example",
     "Pasted image 20260908154450.jpg",
     "blank_self_eval.md",
@@ -223,7 +225,6 @@
     "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/_notes.md",
     "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/New Text Document.txt",
     "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/Segédanyagok",
-    "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/New folder",
     "GI/Előadás jegyzetek/➄ Business as usual/Alvinci/1.JPG",
     "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051267868.png",
     "BDA/Labs/➄ Microsimulation/image002.jpg",
@@ -232,7 +233,6 @@
     "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051616183.png",
     "GI/Gyakorlati feladatok/_④ Adatok rögzítése validált űrlapon/1615051851465.png",
     "GI/Gyakorlati feladatok/1615051616183.png",
-    "GI/Gyakorlati feladatok/1615051851465.png",
     "GI/Előadás jegyzetek/③ Excel and AI/AI Tools.canvas",
     "GI/Előadás jegyzetek/② Excel programing/Excel lecture canvas.canvas",
     "Mintaprojektek/Untitled.canvas",
