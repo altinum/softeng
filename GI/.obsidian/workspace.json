@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BDA/Results/Midterm 1 results.md",
+                "file": "GI/Gyakorlati feladatok/Ⓐ LLM és MCP/MCP szolgáltatás készítése.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Midterm 1 results"
+              "title": "MCP szolgáltatás készítése"
             }
           }
         ]
@@ -187,8 +187,13 @@
   },
   "active": "4f24ec0c04564a1e",
   "lastOpenFiles": [
-    "BDA/Knowhow/SQLite.md",
+    "BDA/Labs/Ⓐ MCP and Practice/LLM and MCP.md",
+    "BDA/Labs/Ⓑ Project midterm/Project description.md",
+    "BDA/Labs/Ⓑ Project midterm/Pricing Table.md",
+    "GI/Zárthelyik/3. ZH - projekt ZH/3. ZH feladata.md",
+    "GI/Tantargyi követelmények.md",
     "BDA/Results/Midterm 1 results.md",
+    "BDA/Knowhow/SQLite.md",
     "BDA/Results",
     "Pasted image 20261123222448.png",
     "BDA/Labs/⑨ Cocktails example/Source code.md",
@@ -217,12 +222,7 @@
     "BDA/Lecture notes/④ Excel/Excel COM automation in CSharp.md",
     "BDA/Lecture notes/④ Excel/Excel VSTO.md",
     "BDA/Lecture notes/④ Excel/New Text Document.txt",
-    "BDA/Lecture notes/⑤ Excel/Spreadsheet history.md",
-    "GI/Zárthelyik/1. ZH/Gyakorló feladatok/db_cokctail.md",
-    "GI/Zárthelyik/1. ZH/Gyakorló feladatok/db_bikestore.md",
     "BDA/Lecture notes/④ DB & Markdown",
-    "GI/Gyakorlati feladatok/② Excel DNA & ClosedXML/🛠 ClosedXML.md",
-    "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/_notes.md",
     "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/New Text Document.txt",
     "GI/Gyakorlati feladatok/⑥ XML állományok kezelése/Segédanyagok",
     "GI/Előadás jegyzetek/➄ Business as usual/Alvinci/1.JPG",

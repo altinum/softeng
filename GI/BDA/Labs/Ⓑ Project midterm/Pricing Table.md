@@ -121,6 +121,26 @@ Only parts tied to built API endpoints can be scored. JavaScript must load data 
     
 - `1x1p` JavaScript performs other functions besides data loading.
     
+#### Model Context Protocol
+An ASP.NET application that can be created in the same solution as the Forms-based project.
+
+- `1x2p` Install the NuGet package and configure `program.cs` to handle the MCP protocol.
+
+**MCP functions**
+
+- `1x2p` Provide the data of an entire SQL table through an MCP endpoint
+- `2x2p` Provide a selectable record of an SQL table through an MCP endpoint
+- `1x1p` Delete a selectable record of an SQL table
+- `1x1p` Add a new record to an SQL table through an MCP method
+- `2x1p` Modify a record in an SQL table through an MCP method
+
+MCP methods and their parameters should have their attributes set correctly along with their descriptions. 
+
+#### BLAZOR
+
+Blazor was only briefly mentioned in the lecture; getting to know it in more depth is an independent task.
+
+- `1x10p` An ASP.NET Blazor web application with which a new record can be added to a database table, a record can be deleted, and the records of the table can be displayed.  
 
 ## Scoring Rules
 

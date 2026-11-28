@@ -16,8 +16,8 @@ The task involves building an ASP.NET and Windows Forms application that provide
 ## Rules
 
 ❶ You need to create the database at home. You need to fill up the database with some sample data to prove that your project works.  
-- We suggest you create a SQL database in Azure.  
-- But you can use SQLite as well. More on SQLite on the lecture!  
+- We suggest you create a SQL database in Azure: [[Create an Azure SQL DB]]
+- But you can use SQLite as well. More on [[SQLite]] on the lecture!  
 - If you get stuck with Azure we can create your personal database on `bit.uni-corvinus.hu`. Just write me on teams.
 - You can use a Service Based database as well. 
 
